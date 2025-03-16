@@ -98,34 +98,17 @@ document.addEventListener('DOMContentLoaded', () => {
 
         markersLayer = L.layerGroup().addTo(map);
 
+        // Chama a função corrigida para criar os filtros e renderizar os ícones
         createCategoryFilters(currentMap.categories);
         renderMarkers();
     }
 
-    function renderMarkers() {
-        markersLayer.clearLayers();
-        const checkedCategories = Array.from(document.querySelectorAll('.category-checkbox:checked')).map(cb => cb.value);
-
-        currentMap.markers.forEach(marker => {
-            if (checkedCategories.includes(marker.categoryId)) {
-                const category = currentMap.categories.find(cat => cat.id === marker.categoryId);
-                const iconFile = category ? category.icon.split(':')[1] : 'default.png';
-
-                const customIcon = L.icon({
-                    iconUrl: `/icons/${iconFile}`,
-                    iconSize: [32, 32],
-                    iconAnchor: [16, 32],
-                    popupAnchor: [0, -16]
-                });
-
-                L.marker([marker.position[1], marker.position[0]], { icon: customIcon })
-                    .bindPopup(`<strong>${translations[marker.popup.title] || marker.popup.title}</strong><br>${translations[marker.popup.description] || marker.popup.description}`)
-                    .addTo(markersLayer);
-            }
-        });
-    }
-
     function createCategoryFilters(categories) {
+        if (!categories || categories.length === 0) {
+            console.warn("Nenhuma categoria encontrada para exibição de filtros.");
+            return;
+        }
+
         const filtersContainer = document.getElementById('filters-container');
         filtersContainer.innerHTML = '';
 
@@ -154,6 +137,43 @@ document.addEventListener('DOMContentLoaded', () => {
             const checked = toggleAllCheckbox.checked;
             document.querySelectorAll('.category-checkbox').forEach(cb => cb.checked = checked);
             renderMarkers();
+        });
+    }
+
+    function renderMarkers() {
+        if (!markersLayer) {
+            console.error("Erro: markersLayer não foi inicializado.");
+            return;
+        }
+
+        markersLayer.clearLayers();
+
+        const checkedCategories = Array.from(document.querySelectorAll('.category-checkbox:checked')).map(cb => cb.value);
+
+        if (!currentMap.markers || currentMap.markers.length === 0) {
+            console.warn("Nenhum marcador disponível para renderizar.");
+            return;
+        }
+
+        currentMap.markers.forEach(marker => {
+            if (checkedCategories.includes(marker.categoryId)) {
+                const category = currentMap.categories.find(cat => cat.id === marker.categoryId);
+                const iconFile = category ? category.icon.split(':')[1] : 'default.png';
+
+                const customIcon = L.icon({
+                    iconUrl: `/icons/${iconFile}`,
+                    iconSize: [32, 32],
+                    iconAnchor: [16, 32],
+                    popupAnchor: [0, -16]
+                });
+
+                const translatedTitle = translations[marker.popup.title] || marker.popup.title;
+                const translatedDescription = translations[marker.popup.description] || marker.popup.description;
+
+                L.marker([marker.position[1], marker.position[0]], { icon: customIcon })
+                    .bindPopup(`<strong>${translatedTitle}</strong><br>${translatedDescription}`)
+                    .addTo(markersLayer);
+            }
         });
     }
 

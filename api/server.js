@@ -22,8 +22,8 @@ app.get('/api/maps', (req, res) => {
             const filePath = path.join(coordinatesPath, file);
             const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
             return {
-                id: path.basename(file, '.json'), // ID do mapa
-                mapName: data.mapName // Nome correto do mapa
+                id: path.basename(file, '.json'),
+                mapName: data.mapName
             };
         });
 
@@ -31,8 +31,7 @@ app.get('/api/maps', (req, res) => {
     });
 });
 
-
-// Rota para obter os dados do mapa selecionado
+// Rota para obter os dados do mapa e traduzir os ícones interativos
 app.get('/api/coordinates/:mapName', (req, res) => {
     const mapName = req.params.mapName;
     const lang = req.query.lang || 'en';
@@ -51,6 +50,7 @@ app.get('/api/coordinates/:mapName', (req, res) => {
 
     let mapData = JSON.parse(fs.readFileSync(filePath, 'utf8'));
 
+    // Traduzindo os títulos e descrições dos marcadores
     mapData.markers.forEach(marker => {
         if (marker.popup) {
             if (translations[marker.popup.title]) {
