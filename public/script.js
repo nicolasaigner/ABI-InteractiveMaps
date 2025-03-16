@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
     toggleSidebar.onclick = () => sidebar.classList.toggle('collapsed');
 
     async function fetchMaps() {
-        const res = await fetch('/maps');
+        const res = await fetch('/api/maps');
         const maps = await res.json();
 
         mapsMenu.innerHTML = '';
@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     async function loadMap(mapName) {
-        const response = await fetch(`/coordinates/${mapName}`);
+        const response = await fetch(`/api/coordinates/${mapName}`);
         currentMapData = await response.json();
 
         const bounds = [[0, 0], [currentMapData.mapBounds[1][1], currentMapData.mapBounds[1][0]]];
