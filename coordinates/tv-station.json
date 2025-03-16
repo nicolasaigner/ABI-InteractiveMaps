@@ -1,0 +1,2961 @@
+{
+    "mapImage": "tv-station.png",
+    "mapName": "Estação de TV",
+    "pageCategories": [
+        "Maps"
+    ],
+    "defaultSort": "",
+    "description": "{{TVStationMapDesc}}",
+    "coordinateOrder": "xy",
+    "mapBounds": [
+        [
+            0,
+            0
+        ],
+        [
+            7680,
+            4320
+        ]
+    ],
+    "origin": "bottom-left",
+    "useMarkerClustering": false,
+    "categories": [
+        {
+            "id": "1",
+            "listId": 1,
+            "name": "Player Spawns",
+            "color": "#FA005A",
+            "symbol": "",
+            "symbolColor": "",
+            "icon": "File:Spawnicon.png"
+        },
+        {
+            "id": "2",
+            "listId": 2,
+            "name": "Extraction Point",
+            "color": "#FFC500",
+            "symbol": "",
+            "symbolColor": "",
+            "icon": "File:Extracticon.png"
+        },
+        {
+            "id": "3",
+            "listId": 3,
+            "name": "Key Rooms",
+            "color": "#fa005a",
+            "symbol": "",
+            "symbolColor": "",
+            "icon": "File:Keysico.png"
+        },
+        {
+            "id": "4",
+            "listId": 4,
+            "name": "Safe",
+            "color": "#fa005a",
+            "symbol": "",
+            "symbolColor": "",
+            "icon": "File:Safeico.png"
+        },
+        {
+            "id": "5",
+            "listId": 5,
+            "name": "Military Supply Crate",
+            "color": "#fa005a",
+            "symbol": "",
+            "symbolColor": "",
+            "icon": "File:Mstoragecase.png"
+        },
+        {
+            "id": "6",
+            "listId": 6,
+            "name": "Weapon Box",
+            "color": "#fa005a",
+            "symbol": "",
+            "symbolColor": "",
+            "icon": "File:Weaponboxico.png"
+        },
+        {
+            "id": "7",
+            "listId": 7,
+            "name": "Document Case",
+            "color": "#fa005a",
+            "symbol": "",
+            "symbolColor": "",
+            "icon": "File:Documentcaseico.png"
+        },
+        {
+            "id": "8",
+            "listId": 8,
+            "name": "Filing Cabinet",
+            "color": "#fa005a",
+            "symbol": "",
+            "symbolColor": "",
+            "icon": "File:Filingcabinetico.png"
+        },
+        {
+            "id": "9",
+            "listId": 9,
+            "name": "Storage Case",
+            "color": "#fa005a",
+            "symbol": "",
+            "symbolColor": "",
+            "icon": "File:Storagecase.png"
+        },
+        {
+            "id": "10",
+            "listId": 10,
+            "name": "Computer",
+            "color": "#fa005a",
+            "symbol": "",
+            "symbolColor": "",
+            "icon": "File:Computerico.png"
+        },
+        {
+            "id": "11",
+            "listId": 11,
+            "name": "Toolbox",
+            "color": "#fa005a",
+            "symbol": "",
+            "symbolColor": "",
+            "icon": "File:Toolboxico.png"
+        },
+        {
+            "id": "12",
+            "listId": 12,
+            "name": "Ammo Box",
+            "color": "#fa005a",
+            "symbol": "",
+            "symbolColor": "",
+            "icon": "File:Ammoboxico.png"
+        },
+        {
+            "id": "13",
+            "listId": 13,
+            "name": "Grenade Box",
+            "color": "#fa005a",
+            "symbol": "",
+            "symbolColor": "",
+            "icon": "File:Grenadeboxico.png"
+        },
+        {
+            "id": "14",
+            "listId": 14,
+            "name": "Duffle Bag",
+            "color": "#fa005a",
+            "symbol": "",
+            "symbolColor": "",
+            "icon": "File:Dufflebagico.png"
+        },
+        {
+            "id": "16",
+            "listId": 15,
+            "name": "Jacket",
+            "color": "#fa005a",
+            "symbol": "",
+            "symbolColor": "",
+            "icon": "File:Jacketico.png"
+        },
+        {
+            "id": "17",
+            "listId": 16,
+            "name": "Suitcase",
+            "color": "#fa005a",
+            "symbol": "",
+            "symbolColor": "",
+            "icon": "File:Suitcaseico.png"
+        },
+        {
+            "id": "18",
+            "listId": 17,
+            "name": "Medical",
+            "color": "#fa005a",
+            "symbol": "",
+            "symbolColor": "",
+            "icon": "File:Medicalico.png"
+        },
+        {
+            "id": "19",
+            "listId": 18,
+            "name": "Cash Register",
+            "color": "#fa005a",
+            "symbol": "",
+            "symbolColor": "",
+            "icon": "File:Cashierico.png"
+        },
+        {
+            "id": "20",
+            "listId": 19,
+            "name": "Switch",
+            "color": "#fa005a",
+            "symbol": "",
+            "symbolColor": "",
+            "icon": "File:ArmoryLever2.png"
+        }
+    ],
+    "markers": [
+        {
+            "categoryId": "6",
+            "config": {
+                "openPopupsOnHover": "false",
+                "enableFullscreen": "true",
+                "fullscreenMode": "window",
+                "enableSearch": "true",
+                "sidebarInitialState": "hide",
+                "enableSidebar": "true",
+                "sidebarOverlay": "true",
+                "useCustomPopups": "true",
+                "enableTooltips": "true"
+            },
+            "position": [
+                1671.6004307249984,
+                3122.583226020932
+            ],
+            "popup": {
+                "title": "Weapon Case",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "1"
+        },
+        {
+            "categoryId": "13",
+            "position": [
+                1638.3613196728413,
+                3056.113430245655
+            ],
+            "popup": {
+                "title": "Grenade Box",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "2"
+        },
+        {
+            "categoryId": "12",
+            "position": [
+                1678.673121677215,
+                3004.3341339020594
+            ],
+            "popup": {
+                "title": "Ammo Box",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "3"
+        },
+        {
+            "categoryId": "10",
+            "position": [
+                1720.411942390047,
+                3044.6620788983287
+            ],
+            "popup": {
+                "title": "Computer",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "4"
+        },
+        {
+            "categoryId": "16",
+            "position": [
+                2401.037155989479,
+                3307.4524052798774
+            ],
+            "popup": {
+                "title": "Jacket",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "5"
+        },
+        {
+            "categoryId": "16",
+            "position": [
+                2404.5378561500106,
+                3219.374866276862
+            ],
+            "popup": {
+                "title": "Jacket",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "6"
+        },
+        {
+            "categoryId": "10",
+            "position": [
+                2891.0833665845885,
+                3345.4338682587486
+            ],
+            "popup": {
+                "title": "Computer",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "7"
+        },
+        {
+            "categoryId": "12",
+            "position": [
+                3178.5551601174434,
+                3330.4348855342982
+            ],
+            "popup": {
+                "title": "Ammo Box",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "8"
+        },
+        {
+            "categoryId": "12",
+            "position": [
+                3194.057760713705,
+                3333.8943075429243
+            ],
+            "popup": {
+                "title": "Ammo Box",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "9"
+        },
+        {
+            "categoryId": "6",
+            "position": [
+                3152.9996999312007,
+                3212.997852418284
+            ],
+            "popup": {
+                "title": "Long Weapon Case",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "10"
+        },
+        {
+            "categoryId": "10",
+            "position": [
+                3377.586667341382,
+                3238.405158482122
+            ],
+            "popup": {
+                "title": "Computer",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "11"
+        },
+        {
+            "categoryId": "5",
+            "position": [
+                3348.049658856121,
+                3266.9012024105396
+            ],
+            "popup": {
+                "title": "Military Supply Carte",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "12"
+        },
+        {
+            "categoryId": "6",
+            "position": [
+                2295.288024474909,
+                2723.0457492602186
+            ],
+            "popup": {
+                "title": "Weapon Case",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "13"
+        },
+        {
+            "categoryId": "6",
+            "position": [
+                2173.651583458858,
+                2596.782750676597
+            ],
+            "popup": {
+                "title": "Weapon Case",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "14"
+        },
+        {
+            "categoryId": "12",
+            "position": [
+                2311.916137955197,
+                2691.2044443583522
+            ],
+            "popup": {
+                "title": "Ammo Box",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "15"
+        },
+        {
+            "categoryId": "12",
+            "position": [
+                2306.258152075396,
+                2682.6867934743327
+            ],
+            "popup": {
+                "title": "Ammo Box",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "16"
+        },
+        {
+            "categoryId": "9",
+            "position": [
+                2458.653525892379,
+                2590.424304451288
+            ],
+            "popup": {
+                "title": "Storage Case",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "17"
+        },
+        {
+            "categoryId": "7",
+            "position": [
+                2624.8266607276723,
+                2471.279769035829
+            ],
+            "popup": {
+                "title": "Document Case",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "18"
+        },
+        {
+            "categoryId": "6",
+            "position": [
+                2587.3468186145424,
+                2366.9722475438143
+            ],
+            "popup": {
+                "title": "Premium Weapon Case",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "19"
+        },
+        {
+            "categoryId": "14",
+            "position": [
+                2671.5041955133,
+                2335.8655435252695
+            ],
+            "popup": {
+                "title": "Duffle Bag",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "20"
+        },
+        {
+            "categoryId": "9",
+            "position": [
+                2574.949039341766,
+                2253.4682617358835
+            ],
+            "popup": {
+                "title": "Storage Case",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "21"
+        },
+        {
+            "categoryId": "3",
+            "position": [
+                2086.6585988664738,
+                2448.619496735667
+            ],
+            "popup": {
+                "title": "Planning Room Key",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "22"
+        },
+        {
+            "categoryId": "17",
+            "position": [
+                2111.443124016517,
+                2325.5734856927775
+            ],
+            "popup": {
+                "title": "Suitcase",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "23"
+        },
+        {
+            "categoryId": "10",
+            "position": [
+                2078.911827014489,
+                2275.3169531634526
+            ],
+            "popup": {
+                "title": "Computer",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "24"
+        },
+        {
+            "categoryId": "7",
+            "position": [
+                2043.5494152657323,
+                2334.0200835047103
+            ],
+            "popup": {
+                "title": "Document Case",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "25"
+        },
+        {
+            "categoryId": "9",
+            "position": [
+                2019.5111795963155,
+                2372.215198998386
+            ],
+            "popup": {
+                "title": "Tactical Accessory Case",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "26"
+        },
+        {
+            "categoryId": "5",
+            "position": [
+                2015.9901818562696,
+                2278.9434476397523
+            ],
+            "popup": {
+                "title": "Military Supply Case",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "27"
+        },
+        {
+            "categoryId": "5",
+            "position": [
+                1972.0010002293316,
+                2389
+            ],
+            "popup": {
+                "title": "Military Supply Case",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "28"
+        },
+        {
+            "categoryId": "4",
+            "position": [
+                1990.882657333969,
+                2277.137796371635
+            ],
+            "popup": {
+                "title": "Electronic Safe",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "29"
+        },
+        {
+            "categoryId": "9",
+            "position": [
+                1925.0230527559065,
+                2283.44223252438
+            ],
+            "popup": {
+                "title": "Storage Case",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "30"
+        },
+        {
+            "categoryId": "9",
+            "position": [
+                1829.503948375677,
+                2282.8946466347743
+            ],
+            "popup": {
+                "title": "Storage Case",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "31"
+        },
+        {
+            "categoryId": "8",
+            "position": [
+                2034.375274649035,
+                2186.2398814185144
+            ],
+            "popup": {
+                "title": "Filing Cabinet",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "32"
+        },
+        {
+            "categoryId": "19",
+            "position": [
+                2061.2492930402045,
+                2098.504291744837
+            ],
+            "popup": {
+                "title": "Cash Register",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "33"
+        },
+        {
+            "categoryId": "14",
+            "position": [
+                2038.604655832583,
+                2065.76833654942
+            ],
+            "popup": {
+                "title": "Duffle Bag",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "34"
+        },
+        {
+            "categoryId": "16",
+            "position": [
+                1938.8821596128284,
+                2172.8882202983636
+            ],
+            "popup": {
+                "title": "Jacket",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "35"
+        },
+        {
+            "categoryId": "16",
+            "position": [
+                1642.6239724928287,
+                2288.0973058381833
+            ],
+            "popup": {
+                "title": "Jacket",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "36"
+        },
+        {
+            "categoryId": "3",
+            "position": [
+                1464.0946829511608,
+                2331.9849282485875
+            ],
+            "popup": {
+                "title": "Warehouse Storage Key",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "37"
+        },
+        {
+            "categoryId": "16",
+            "position": [
+                1416.355427090339,
+                2269.370651389323
+            ],
+            "popup": {
+                "title": "Jacket",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "38"
+        },
+        {
+            "categoryId": "6",
+            "position": [
+                1377.8114591876085,
+                2352.1349938462226
+            ],
+            "popup": {
+                "title": "Large Weapon Case",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "39"
+        },
+        {
+            "categoryId": "6",
+            "position": [
+                1320.1707280371345,
+                2324.1792595534002
+            ],
+            "popup": {
+                "title": "Premium Weapon Case",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "40"
+        },
+        {
+            "categoryId": "9",
+            "position": [
+                1392.5084756784925,
+                2320.2169906446825
+            ],
+            "popup": {
+                "title": "Tactical Accessory Case",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "41"
+        },
+        {
+            "categoryId": "9",
+            "position": [
+                1394.008775747292,
+                2310.195119220363
+            ],
+            "popup": {
+                "title": "Tactical Accessory Case",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "42"
+        },
+        {
+            "categoryId": "8",
+            "position": [
+                1196.046823899746,
+                2062.9518182072848
+            ],
+            "popup": {
+                "title": "Office Drawers",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "43"
+        },
+        {
+            "categoryId": "18",
+            "position": [
+                1236.0183727478716,
+                2083.082781797914
+            ],
+            "popup": {
+                "title": "Medkit",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "44"
+        },
+        {
+            "categoryId": "17",
+            "position": [
+                1252.992330387275,
+                2080.94036132946
+            ],
+            "popup": {
+                "title": "Suitcase",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "45"
+        },
+        {
+            "categoryId": "3",
+            "position": [
+                964.8469535958054,
+                1933.5428851550178
+            ],
+            "popup": {
+                "title": "Backup Pump Room Key",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "46"
+        },
+        {
+            "categoryId": "17",
+            "position": [
+                955.3082969198995,
+                1917.9714301976826
+            ],
+            "popup": {
+                "title": "Suitcase",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "47"
+        },
+        {
+            "categoryId": "8",
+            "position": [
+                951.4184316275363,
+                1898.8565287875797
+            ],
+            "popup": {
+                "title": "Office Drawers",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "48"
+        },
+        {
+            "categoryId": "10",
+            "position": [
+                938.3398559782513,
+                1898.5133656100022
+            ],
+            "popup": {
+                "title": "Computer",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "49"
+        },
+        {
+            "categoryId": "16",
+            "position": [
+                897.3194583496932,
+                1912.2989906286662
+            ],
+            "popup": {
+                "title": "Jacket",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "50"
+        },
+        {
+            "categoryId": "9",
+            "position": [
+                897.6730824671806,
+                1933.8675057985972
+            ],
+            "popup": {
+                "title": "Storage Case",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "51"
+        },
+        {
+            "categoryId": "11",
+            "position": [
+                1103.4816115760032,
+                1873.4233832840682
+            ],
+            "popup": {
+                "title": "Toolbox",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "52"
+        },
+        {
+            "categoryId": "3",
+            "position": [
+                1767.793189065935,
+                1771.2028881885415
+            ],
+            "popup": {
+                "title": "Infirmary Key",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "53"
+        },
+        {
+            "categoryId": "4",
+            "position": [
+                1751.0002000458662,
+                1874.251073790858
+            ],
+            "popup": {
+                "title": "Electronic Safe",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "54"
+        },
+        {
+            "categoryId": "18",
+            "position": [
+                1751.0081756096931,
+                1848.2077786494262
+            ],
+            "popup": {
+                "title": "Medkit",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "55"
+        },
+        {
+            "categoryId": "9",
+            "position": [
+                1830.5242292904616,
+                1875.203483485994
+            ],
+            "popup": {
+                "title": "Storage Case",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "56"
+        },
+        {
+            "categoryId": "9",
+            "position": [
+                1828.7695282126042,
+                1785.4569309198016
+            ],
+            "popup": {
+                "title": "Storage Case",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "57"
+        },
+        {
+            "categoryId": "10",
+            "position": [
+                1719.3370325381757,
+                1623.4494671261593
+            ],
+            "popup": {
+                "title": "Computer",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "58"
+        },
+        {
+            "categoryId": "16",
+            "position": [
+                1769.9983996330698,
+                1263.8942033428245
+            ],
+            "popup": {
+                "title": "Jacket",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "59"
+        },
+        {
+            "categoryId": "9",
+            "position": [
+                1790.4361659806495,
+                1170.1285557994627
+            ],
+            "popup": {
+                "title": "Storage Case",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "60"
+        },
+        {
+            "categoryId": "9",
+            "position": [
+                1588.16317077776,
+                1171.5274238164582
+            ],
+            "popup": {
+                "title": "Large Material Crate",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "61"
+        },
+        {
+            "categoryId": "6",
+            "position": [
+                1323.7049517064138,
+                790.4149317426142
+            ],
+            "popup": {
+                "title": "Large Weapon Case",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "62"
+        },
+        {
+            "categoryId": "11",
+            "position": [
+                1844.8817278391066,
+                809.2147297944018
+            ],
+            "popup": {
+                "title": "Toolbox",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "63"
+        },
+        {
+            "categoryId": "17",
+            "position": [
+                1830.736763139604,
+                837.4999601384499
+            ],
+            "popup": {
+                "title": "Suitcase",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "64"
+        },
+        {
+            "categoryId": "14",
+            "position": [
+                1929.3978919186359,
+                949.2416937987841
+            ],
+            "popup": {
+                "title": "Duffle Bag",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "65"
+        },
+        {
+            "categoryId": "9",
+            "position": [
+                1915.237650209965,
+                834.6708136912641
+            ],
+            "popup": {
+                "title": "Storage Case",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "66"
+        },
+        {
+            "categoryId": "3",
+            "position": [
+                1282.6966855293365,
+                941.4603222171119
+            ],
+            "popup": {
+                "title": "Parking Lot Storage Room Key",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "67"
+        },
+        {
+            "categoryId": "6",
+            "position": [
+                1242.7375138877126,
+                958.7670946929171
+            ],
+            "popup": {
+                "title": "Long Weapon Case",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "68"
+        },
+        {
+            "categoryId": "16",
+            "position": [
+                1350.5928697214213,
+                997.3084105033594
+            ],
+            "popup": {
+                "title": "Jacket",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "69"
+        },
+        {
+            "categoryId": "5",
+            "position": [
+                1351.3001179563964,
+                973.9598998989893
+            ],
+            "popup": {
+                "title": "Military Supply Case",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "70"
+        },
+        {
+            "categoryId": "5",
+            "position": [
+                1332.1888928478786,
+                1012.9298246520052
+            ],
+            "popup": {
+                "title": "Military Supply Case",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "71"
+        },
+        {
+            "categoryId": "9",
+            "position": [
+                1272.8135285053072,
+                1011.8103336454931
+            ],
+            "popup": {
+                "title": "Tactical Accessory Case",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "72"
+        },
+        {
+            "categoryId": "4",
+            "position": [
+                2246.0455579158624,
+                1878.9546658922102
+            ],
+            "popup": {
+                "title": "Electronic Safe",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "73"
+        },
+        {
+            "categoryId": "10",
+            "position": [
+                2224.041156906804,
+                1882.895663910324
+            ],
+            "popup": {
+                "title": "Computer",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "74"
+        },
+        {
+            "categoryId": "7",
+            "position": [
+                2126.0215524119094,
+                1787.3731708176126
+            ],
+            "popup": {
+                "title": "Document Case",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "75"
+        },
+        {
+            "categoryId": "10",
+            "position": [
+                2322.0603613099665,
+                1791.8957769409406
+            ],
+            "popup": {
+                "title": "Computer",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "76"
+        },
+        {
+            "categoryId": "10",
+            "position": [
+                2212.024953191636,
+                1699.915783360086
+            ],
+            "popup": {
+                "title": "Computer",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "77"
+        },
+        {
+            "categoryId": "18",
+            "position": [
+                2656.5538598193125,
+                1654.9121663803535
+            ],
+            "popup": {
+                "title": "Medkit",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "78"
+        },
+        {
+            "categoryId": "17",
+            "position": [
+                2657.5466581681267,
+                1687.9022196860892
+            ],
+            "popup": {
+                "title": "Suitcase",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "79"
+        },
+        {
+            "categoryId": "7",
+            "position": [
+                2696.5539598422456,
+                1679.8908035938084
+            ],
+            "popup": {
+                "title": "Document Case",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "80"
+        },
+        {
+            "categoryId": "9",
+            "position": [
+                2783.571363832612,
+                1977.9581698413263
+            ],
+            "popup": {
+                "title": "Storage Case",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "81"
+        },
+        {
+            "categoryId": "9",
+            "position": [
+                2750.999799954134,
+                1977.4992087856835
+            ],
+            "popup": {
+                "title": "Storage Case",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "82"
+        },
+        {
+            "categoryId": "19",
+            "position": [
+                2607.0419570902695,
+                883.3973593695737
+            ],
+            "popup": {
+                "title": "Cash Register",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "83"
+        },
+        {
+            "categoryId": "19",
+            "position": [
+                2620.5407568150717,
+                721.4061757576716
+            ],
+            "popup": {
+                "title": "Cash Register",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "84"
+        },
+        {
+            "categoryId": "11",
+            "position": [
+                3012.087515006132,
+                1018.8946378042573
+            ],
+            "popup": {
+                "title": "Toolbox",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "85"
+        },
+        {
+            "categoryId": "9",
+            "position": [
+                3333.5710637638126,
+                1044.942797677463
+            ],
+            "popup": {
+                "title": "Tactical Accessory Case",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "86"
+        },
+        {
+            "categoryId": "10",
+            "position": [
+                3398.5369559436126,
+                1068.4123924415867
+            ],
+            "popup": {
+                "title": "Computer",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "87"
+        },
+        {
+            "categoryId": "7",
+            "position": [
+                3424.5429573196006,
+                1067.4180439724187
+            ],
+            "popup": {
+                "title": "Document Case",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "88"
+        },
+        {
+            "categoryId": "4",
+            "position": [
+                3436.045257847063,
+                996.378709317828
+            ],
+            "popup": {
+                "title": "Electronic Safe",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "89"
+        },
+        {
+            "categoryId": "3",
+            "position": [
+                3366.0304544529586,
+                1080.4137488089864
+            ],
+            "popup": {
+                "title": "Darkroom Key",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "90"
+        },
+        {
+            "categoryId": "16",
+            "position": [
+                3266.8666378708454,
+                1276.9050365966827
+            ],
+            "popup": {
+                "title": "Jacket",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "91"
+        },
+        {
+            "categoryId": "14",
+            "position": [
+                3373.6611213520914,
+                1392.1704753050547
+            ],
+            "popup": {
+                "title": "Duffle Bag",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "92"
+        },
+        {
+            "categoryId": "6",
+            "position": [
+                3373.6611213520914,
+                1373.7554874517425
+            ],
+            "popup": {
+                "title": "Weapon Case",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "93"
+        },
+        {
+            "categoryId": "16",
+            "position": [
+                3244.2349436848795,
+                2145.659494040889
+            ],
+            "popup": {
+                "title": "Jacket",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "94"
+        },
+        {
+            "categoryId": "8",
+            "position": [
+                3293.3496211956626,
+                2165.511400319897
+            ],
+            "popup": {
+                "title": "Office Drawers",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "95"
+        },
+        {
+            "categoryId": "4",
+            "position": [
+                3204.627981622858,
+                2182.0578299098693
+            ],
+            "popup": {
+                "title": "Electronic Safe",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "96"
+        },
+        {
+            "categoryId": "10",
+            "position": [
+                3293.03401099475,
+                2218.481342064234
+            ],
+            "popup": {
+                "title": "Computer",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "97"
+        },
+        {
+            "categoryId": "10",
+            "position": [
+                3378.611047426742,
+                2183.109778287658
+            ],
+            "popup": {
+                "title": "Computer",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "98"
+        },
+        {
+            "categoryId": "10",
+            "position": [
+                3440.8826624074713,
+                2222.3242266310776
+            ],
+            "popup": {
+                "title": "Computer",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "99"
+        },
+        {
+            "categoryId": "7",
+            "position": [
+                3494.6326795428504,
+                2178.477372069702
+            ],
+            "popup": {
+                "title": "Document Case",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "100"
+        },
+        {
+            "categoryId": "6",
+            "position": [
+                3317.421344260419,
+                2145.309137638916
+            ],
+            "popup": {
+                "title": "Weapon Case",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "101"
+        },
+        {
+            "categoryId": "3",
+            "position": [
+                3261.9023578148704,
+                2240.4149197837914
+            ],
+            "popup": {
+                "title": "Post-Production Room Key",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "102"
+        },
+        {
+            "categoryId": "3",
+            "position": [
+                2873.5004000917324,
+                3455.9993218163
+            ],
+            "popup": {
+                "title": "Backstage Area Passage Key",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "103"
+        },
+        {
+            "categoryId": "20",
+            "position": [
+                2337.0022479858135,
+                3552.4348855342982
+            ],
+            "popup": {
+                "title": "Ventilation Stairs Switch",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "104"
+        },
+        {
+            "categoryId": "2",
+            "position": [
+                933.0010951919007,
+                2135.8539467822666
+            ],
+            "popup": {
+                "title": "Loading Dock Extract",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "105"
+        },
+        {
+            "categoryId": "2",
+            "position": [
+                2287.01189766868,
+                594.8336012712716
+            ],
+            "popup": {
+                "title": "Radar Station Extract",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "106"
+        },
+        {
+            "categoryId": "10",
+            "position": [
+                4670.013950668991,
+                3541.948562238912
+            ],
+            "popup": {
+                "title": "Computer",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "107"
+        },
+        {
+            "categoryId": "10",
+            "position": [
+                4740.528053902563,
+                3509.3874126753094
+            ],
+            "popup": {
+                "title": "Computer",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "108"
+        },
+        {
+            "categoryId": "8",
+            "position": [
+                4774.527453764964,
+                3713.440084942664
+            ],
+            "popup": {
+                "title": "Office Drawers",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "109"
+        },
+        {
+            "categoryId": "4",
+            "position": [
+                4699.01235030206,
+                3759.405158482122
+            ],
+            "popup": {
+                "title": "Electronic Safe",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "110"
+        },
+        {
+            "categoryId": "6",
+            "position": [
+                4775.034255324417,
+                3646.899393920673
+            ],
+            "popup": {
+                "title": "Weapon Case",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "111"
+        },
+        {
+            "categoryId": "3",
+            "position": [
+                4680.524353054037,
+                3623.926521268667
+            ],
+            "popup": {
+                "title": "Editing Room Key",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "112"
+        },
+        {
+            "categoryId": "9",
+            "position": [
+                5599.643877561487,
+                3318.3333434929855
+            ],
+            "popup": {
+                "title": "Storage Case",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "113"
+        },
+        {
+            "categoryId": "16",
+            "position": [
+                5727.627800241846,
+                3299.9512846224625
+            ],
+            "popup": {
+                "title": "Jacket",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "114"
+        },
+        {
+            "categoryId": "6",
+            "position": [
+                5866.955702531948,
+                3283.651382984901
+            ],
+            "popup": {
+                "title": "Premium Weapon Case",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "115"
+        },
+        {
+            "categoryId": "11",
+            "position": [
+                5802.429151424621,
+                2838.570410490837
+            ],
+            "popup": {
+                "title": "Toolbox",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "116"
+        },
+        {
+            "categoryId": "11",
+            "position": [
+                6247.935846904098,
+                1289.813992366159
+            ],
+            "popup": {
+                "title": "Toolbox",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "117"
+        },
+        {
+            "categoryId": "16",
+            "position": [
+                6231.043802744078,
+                1249.0576065374921
+            ],
+            "popup": {
+                "title": "Jacket",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "118"
+        },
+        {
+            "categoryId": "16",
+            "position": [
+                6230.689966445908,
+                1237.713446721899
+            ],
+            "popup": {
+                "title": "Jacket",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "119"
+        },
+        {
+            "categoryId": "7",
+            "position": [
+                6438.566134185519,
+                967.6286280769532
+            ],
+            "popup": {
+                "title": "Document Case",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "120"
+        },
+        {
+            "categoryId": "9",
+            "position": [
+                6414.874237763479,
+                891.2399156591964
+            ],
+            "popup": {
+                "title": "Storage Case",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "121"
+        },
+        {
+            "categoryId": "8",
+            "position": [
+                6374.584674000033,
+                838.5065050337121
+            ],
+            "popup": {
+                "title": "Office Drawer",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "122"
+        },
+        {
+            "categoryId": "2",
+            "position": [
+                5501.275264863271,
+                1403.529261343586
+            ],
+            "popup": {
+                "title": "Elevator Extract",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "123"
+        },
+        {
+            "categoryId": "11",
+            "position": [
+                5486.1023529697095,
+                904.6894907999632
+            ],
+            "popup": {
+                "title": "Toolbox",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "124"
+        },
+        {
+            "categoryId": "3",
+            "position": [
+                5816.717737973596,
+                761.4596796853752
+            ],
+            "popup": {
+                "title": "2F Directors Office Card",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "125"
+        },
+        {
+            "categoryId": "4",
+            "position": [
+                5814.18572048707,
+                825.8997613293014
+            ],
+            "popup": {
+                "title": "Electronic Safe",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "126"
+        },
+        {
+            "categoryId": "9",
+            "position": [
+                5791.0492587643885,
+                788.9267473299001
+            ],
+            "popup": {
+                "title": "Tactical Accessory Case",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "127"
+        },
+        {
+            "categoryId": "11",
+            "position": [
+                6038.335528866752,
+                788.0707474065539
+            ],
+            "popup": {
+                "title": "Toolbox",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "128"
+        },
+        {
+            "categoryId": "9",
+            "position": [
+                5948.910248130581,
+                783.4087690438597
+            ],
+            "popup": {
+                "title": "Storage Case",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "129"
+        },
+        {
+            "categoryId": "7",
+            "position": [
+                5869.702689427022,
+                697.854762949235
+            ],
+            "popup": {
+                "title": "Document Case",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "130"
+        },
+        {
+            "categoryId": "8",
+            "position": [
+                5969.073329701648,
+                563.1326982980619
+            ],
+            "popup": {
+                "title": "Office Drawers",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "131"
+        },
+        {
+            "categoryId": "17",
+            "position": [
+                5850.615969398269,
+                573.0483380272062
+            ],
+            "popup": {
+                "title": "Suitcase",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "132"
+        },
+        {
+            "categoryId": "10",
+            "position": [
+                5857.685834852932,
+                663.9172340644786
+            ],
+            "popup": {
+                "title": "Computer",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "133"
+        },
+        {
+            "categoryId": "4",
+            "position": [
+                5854.1486742284305,
+                681.5795580487647
+            ],
+            "popup": {
+                "title": "Electronic Safe",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "134"
+        },
+        {
+            "categoryId": "10",
+            "position": [
+                4627.759325873424,
+                2270.729650073746
+            ],
+            "popup": {
+                "title": "Computer",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "135"
+        },
+        {
+            "categoryId": "17",
+            "position": [
+                4641.262026492619,
+                2266.446419072454
+            ],
+            "popup": {
+                "title": "Suitcase",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "136"
+        },
+        {
+            "categoryId": "18",
+            "position": [
+                5066.074512024824,
+                1833.851007986234
+            ],
+            "popup": {
+                "title": "Medkit",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "137"
+        },
+        {
+            "categoryId": "16",
+            "position": [
+                4991.05910849312,
+                1804.7829635550165
+            ],
+            "popup": {
+                "title": "Jacket",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "138"
+        },
+        {
+            "categoryId": "18",
+            "position": [
+                4960.052907071266,
+                1675.7538016559229
+            ],
+            "popup": {
+                "title": "Medkit",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "139"
+        },
+        {
+            "categoryId": "10",
+            "position": [
+                4520.985291568465,
+                1474.8232024545405
+            ],
+            "popup": {
+                "title": "Computer",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "140"
+        },
+        {
+            "categoryId": "10",
+            "position": [
+                4993.076712529353,
+                1365.8317927814053
+            ],
+            "popup": {
+                "title": "Computer",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "141"
+        },
+        {
+            "categoryId": "8",
+            "position": [
+                5072.549358787322,
+                1302.888090859009
+            ],
+            "popup": {
+                "title": "Office Drawers",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "142"
+        },
+        {
+            "categoryId": "10",
+            "position": [
+                4959.023452847639,
+                1220.3761096136452
+            ],
+            "popup": {
+                "title": "Computer",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "143"
+        },
+        {
+            "categoryId": "10",
+            "position": [
+                4872.0202783846025,
+                1204.2085133484345
+            ],
+            "popup": {
+                "title": "Computer",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "144"
+        },
+        {
+            "categoryId": "16",
+            "position": [
+                4894.0253295427265,
+                1159.696419072454
+            ],
+            "popup": {
+                "title": "Jacket",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "145"
+        },
+        {
+            "categoryId": "16",
+            "position": [
+                4877.271978774466,
+                1159.696419072454
+            ],
+            "popup": {
+                "title": "Jacket",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "146"
+        },
+        {
+            "categoryId": "5",
+            "position": [
+                4833.2633267907495,
+                1157.6968146796123
+            ],
+            "popup": {
+                "title": "Large Material Crate",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "147"
+        },
+        {
+            "categoryId": "7",
+            "position": [
+                4809.5,
+                1268
+            ],
+            "popup": {
+                "title": "Document Case",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "148"
+        },
+        {
+            "categoryId": "17",
+            "position": [
+                4786.5,
+                1232.5
+            ],
+            "popup": {
+                "title": "Suitcase",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "149"
+        },
+        {
+            "categoryId": "4",
+            "position": [
+                4782.256275173963,
+                1172.683364036232
+            ],
+            "popup": {
+                "title": "Electronic Safe",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "150"
+        },
+        {
+            "categoryId": "3",
+            "position": [
+                4873.0253295427265,
+                1280.4717379305814
+            ],
+            "popup": {
+                "title": "2F General Office Key",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "151"
+        },
+        {
+            "categoryId": "4",
+            "position": [
+                2450.8321035925737,
+                2193.4452352406706
+            ],
+            "popup": {
+                "title": "Electronic Safe",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "152"
+        },
+        {
+            "categoryId": "4",
+            "position": [
+                4945,
+                1370
+            ],
+            "popup": {
+                "title": "Electronic Safe",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "153"
+        },
+        {
+            "categoryId": "1",
+            "position": [
+                2286.076223576108,
+                852.7707781109763
+            ],
+            "popup": {
+                "title": "Player Spawn",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "154"
+        },
+        {
+            "categoryId": "1",
+            "position": [
+                3503.9221607358813,
+                740.0053236623544
+            ],
+            "popup": {
+                "title": "Player Spawns",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "155"
+        },
+        {
+            "categoryId": "1",
+            "position": [
+                3419.9798194500436,
+                1612.0150837100043
+            ],
+            "popup": {
+                "title": "Player Spawns",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "157"
+        },
+        {
+            "categoryId": "1",
+            "position": [
+                3591.0675657517013,
+                2724.3673479578647
+            ],
+            "popup": {
+                "title": "Player Spawns",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "158"
+        },
+        {
+            "categoryId": "1",
+            "position": [
+                3326.7590916309355,
+                3472.2670856501886
+            ],
+            "popup": {
+                "title": "Player Spawns",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "160"
+        },
+        {
+            "categoryId": "1",
+            "position": [
+                2206.136377517988,
+                3424.277732974898
+            ],
+            "popup": {
+                "title": "Player Spawns",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "161"
+        },
+        {
+            "categoryId": "1",
+            "position": [
+                2753.27580809482,
+                3264.395166098421
+            ],
+            "popup": {
+                "title": "Player Spawns",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "162"
+        },
+        {
+            "categoryId": "1",
+            "position": [
+                1352,
+                699.9911272294094
+            ],
+            "popup": {
+                "title": "Player Spawns",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "163"
+        },
+        {
+            "categoryId": "1",
+            "position": [
+                1004.3415754353281,
+                1578.9336747818122
+            ],
+            "popup": {
+                "title": "Player Spawns",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "164"
+        },
+        {
+            "categoryId": "1",
+            "position": [
+                1724.0172976142485,
+                1556.0053236623546
+            ],
+            "popup": {
+                "title": "Player Spawns",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "165"
+        },
+        {
+            "categoryId": "1",
+            "position": [
+                1392.1124344926156,
+                2076.023069203536
+            ],
+            "popup": {
+                "title": "Player Spawns",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "166"
+        },
+        {
+            "categoryId": "1",
+            "position": [
+                1414.5601690670771,
+                3348.2653110960705
+            ],
+            "popup": {
+                "title": "Player Spawns",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "167"
+        },
+        {
+            "categoryId": "1",
+            "position": [
+                5512,
+                3376.0159709870636
+            ],
+            "popup": {
+                "title": "Player Spawns",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "168"
+        },
+        {
+            "categoryId": "1",
+            "position": [
+                4836,
+                1708.0062109394134
+            ],
+            "popup": {
+                "title": "Player Spawns",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "169"
+        },
+        {
+            "categoryId": "1",
+            "position": [
+                4492.278520907392,
+                896.851816487529
+            ],
+            "popup": {
+                "title": "Player Spawns",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "170"
+        },
+        {
+            "categoryId": "1",
+            "position": [
+                5382.516925031456,
+                1456.3398423690335
+            ],
+            "popup": {
+                "title": "Player Spawns",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "171"
+        },
+        {
+            "categoryId": "1",
+            "position": [
+                6487.925769775835,
+                2056.5877590858177
+            ],
+            "popup": {
+                "title": "Player Spawns",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "172"
+        },
+        {
+            "categoryId": "20",
+            "position": [
+                2163.999637919198,
+                1184.0086483845987
+            ],
+            "popup": {
+                "title": "Switch",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "173"
+        },
+        {
+            "categoryId": "4",
+            "position": [
+                2871.0542243128375,
+                3240.2513237233475
+            ],
+            "popup": {
+                "title": "Electronic Safe",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "174"
+        }
+    ],
+    "markerProgress": false
+}

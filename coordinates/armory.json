@@ -1,0 +1,1619 @@
+{
+    "mapImage": "armory.png",
+    "mapName": "Arsenal",
+    "pageCategories": [
+        "Maps"
+    ],
+    "defaultSort": "",
+    "description": "{{ArmoryMapDesc}}",
+    "coordinateOrder": "xy",
+    "mapBounds": [
+        [
+            0,
+            0
+        ],
+        [
+            3840,
+            2160
+        ]
+    ],
+    "origin": "bottom-left",
+    "useMarkerClustering": false,
+    "categories": [
+        {
+            "id": "1",
+            "listId": 1,
+            "name": "Player Spawn",
+            "color": "#fa005a",
+            "symbol": "",
+            "symbolColor": "",
+            "icon": "File:Spawnicon.png"
+        },
+        {
+            "id": "2",
+            "listId": 2,
+            "name": "Extraction Point",
+            "color": "#fa005a",
+            "symbol": "",
+            "symbolColor": "",
+            "icon": "File:Extracticon.png"
+        },
+        {
+            "id": "3",
+            "listId": 3,
+            "name": "Key Rooms",
+            "color": "#fa005a",
+            "symbol": "",
+            "symbolColor": "",
+            "icon": "File:Keysico.png"
+        },
+        {
+            "id": "4",
+            "listId": 4,
+            "name": "Safe",
+            "color": "#fa005a",
+            "symbol": "",
+            "symbolColor": "",
+            "icon": "File:Safeico.png"
+        },
+        {
+            "id": "5",
+            "listId": 5,
+            "name": "Air Drop",
+            "color": "#fa005a",
+            "symbol": "",
+            "symbolColor": "",
+            "icon": "File:Airdropi.png"
+        },
+        {
+            "id": "6",
+            "listId": 6,
+            "name": "Military Supply Case",
+            "color": "#fa005a",
+            "symbol": "",
+            "symbolColor": "",
+            "icon": "File:Mstoragecase.png"
+        },
+        {
+            "id": "7",
+            "listId": 7,
+            "name": "Weapon Box",
+            "color": "#fa005a",
+            "symbol": "",
+            "symbolColor": "",
+            "icon": "File:Weaponboxico.png"
+        },
+        {
+            "id": "8",
+            "listId": 8,
+            "name": "Document Case",
+            "color": "#fa005a",
+            "symbol": "",
+            "symbolColor": "",
+            "icon": "File:Documentcaseico.png"
+        },
+        {
+            "id": "9",
+            "listId": 9,
+            "name": "Filing Cabinet",
+            "color": "#fa005a",
+            "symbol": "",
+            "symbolColor": "",
+            "icon": "File:Filingcabinetico.png"
+        },
+        {
+            "id": "10",
+            "listId": 10,
+            "name": "Storage Case",
+            "color": "#fa005a",
+            "symbol": "",
+            "symbolColor": "",
+            "icon": "File:Storagecase.png"
+        },
+        {
+            "id": "11",
+            "listId": 11,
+            "name": "Computer",
+            "color": "#fa005a",
+            "symbol": "",
+            "symbolColor": "",
+            "icon": "File:Computerico.png"
+        },
+        {
+            "id": "12",
+            "listId": 12,
+            "name": "Toolbox",
+            "color": "#fa005a",
+            "symbol": "",
+            "symbolColor": "",
+            "icon": "File:Toolboxico.png"
+        },
+        {
+            "id": "13",
+            "listId": 13,
+            "name": "Ammo Box",
+            "color": "#fa005a",
+            "symbol": "",
+            "symbolColor": "",
+            "icon": "File:Ammoboxico.png"
+        },
+        {
+            "id": "14",
+            "listId": 14,
+            "name": "Grenade Box",
+            "color": "#fa005a",
+            "symbol": "",
+            "symbolColor": "",
+            "icon": "File:Grenadeboxico.png"
+        },
+        {
+            "id": "15",
+            "listId": 15,
+            "name": "Duffle Bag",
+            "color": "#fa005a",
+            "symbol": "",
+            "symbolColor": "",
+            "icon": "File:Dufflebagico.png"
+        },
+        {
+            "id": "16",
+            "listId": 16,
+            "name": "Jacket",
+            "color": "#fa005a",
+            "symbol": "",
+            "symbolColor": "",
+            "icon": "File:Jacketico.png"
+        },
+        {
+            "id": "17",
+            "listId": 17,
+            "name": "Suitcase",
+            "color": "#fa005a",
+            "symbol": "",
+            "symbolColor": "",
+            "icon": "File:Suitcaseico.png"
+        },
+        {
+            "id": "18",
+            "listId": 18,
+            "name": "Medical",
+            "color": "#fa005a",
+            "symbol": "",
+            "symbolColor": "",
+            "icon": "File:Medicalico.png"
+        },
+        {
+            "id": "19",
+            "listId": 19,
+            "name": "Cash Register",
+            "color": "#fa005a",
+            "symbol": "",
+            "symbolColor": "",
+            "icon": "File:Cashierico.png"
+        },
+        {
+            "id": "20",
+            "listId": 20,
+            "name": "Extraction Lever",
+            "color": "#fa005a",
+            "symbol": "",
+            "symbolColor": "",
+            "icon": "File:ArmoryLever2.png"
+        },
+        {
+            "id": "21",
+            "listId": 21,
+            "name": "Weapons",
+            "color": "#fa005a",
+            "symbol": "",
+            "symbolColor": "",
+            "icon": "File:Assault-rifle.png"
+        }
+    ],
+    "markers": [
+        {
+            "categoryId": "7",
+            "config": {
+                "openPopupsOnHover": "false",
+                "enableFullscreen": "true",
+                "fullscreenMode": "window",
+                "enableSearch": "true",
+                "sidebarInitialState": "hide",
+                "enableSidebar": "true",
+                "sidebarOverlay": "true",
+                "useCustomPopups": "true",
+                "enableTooltips": "true"
+            },
+            "position": [
+                900.1469324504751,
+                1388.050611469193
+            ],
+            "popup": {
+                "title": "Long Weapon Case",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "1"
+        },
+        {
+            "categoryId": "11",
+            "position": [
+                917.4710485895455,
+                1468.307231133866
+            ],
+            "popup": {
+                "title": "Computer",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "2"
+        },
+        {
+            "categoryId": "8",
+            "position": [
+                964.8472029290442,
+                1467.6001243526796
+            ],
+            "popup": {
+                "title": "Document Case",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "3"
+        },
+        {
+            "categoryId": "11",
+            "position": [
+                987.1210665364205,
+                1469.0143379150527
+            ],
+            "popup": {
+                "title": "Computer",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "4"
+        },
+        {
+            "categoryId": "1",
+            "position": [
+                933.7403375702804,
+                1362.9963000614587
+            ],
+            "popup": {
+                "title": "Tactical Ops Spawn",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "5"
+        },
+        {
+            "categoryId": "4",
+            "position": [
+                984.0003481956655,
+                1611.9990750153647
+            ],
+            "popup": {
+                "title": "Safe",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "6"
+        },
+        {
+            "categoryId": "2",
+            "position": [
+                1770.000696391331,
+                318.99815003072945
+            ],
+            "popup": {
+                "title": "Extraction 1\/2",
+                "description": "This Extraction is mutually exclusive with the Basement Extraction.",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "7"
+        },
+        {
+            "categoryId": "2",
+            "position": [
+                3242.084591740321,
+                1797.1118843856107
+            ],
+            "popup": {
+                "title": "Sluice Extraction",
+                "description": "This extract is activated by pressing the lever in the bottom left of the control room. It can be activated after 3 minutes of the game starting.",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "9"
+        },
+        {
+            "categoryId": "1",
+            "position": [
+                1516.036938863958,
+                907.9251070435271
+            ],
+            "popup": {
+                "title": "Tactical Ops Spawn",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "10"
+        },
+        {
+            "categoryId": "1",
+            "position": [
+                1549.9780643609124,
+                398.80822458921284
+            ],
+            "popup": {
+                "title": "Tactical Ops Spawn",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "11"
+        },
+        {
+            "categoryId": "1",
+            "position": [
+                2398.8587087764186,
+                330.5586848836399
+            ],
+            "popup": {
+                "title": "Tactical Ops Spawn",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "12"
+        },
+        {
+            "categoryId": "1",
+            "position": [
+                2339.1092321650995,
+                859.8418459228419
+            ],
+            "popup": {
+                "title": "Tactical Ops Spawn",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "13"
+        },
+        {
+            "categoryId": "1",
+            "position": [
+                3184.8089424642103,
+                1371.7871555019024
+            ],
+            "popup": {
+                "title": "Tactical Ops Spawn",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "14"
+        },
+        {
+            "categoryId": "1",
+            "position": [
+                3162.1815254662406,
+                1813.021786962308
+            ],
+            "popup": {
+                "title": "Tactical Ops Spawn",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "15"
+        },
+        {
+            "categoryId": "2",
+            "position": [
+                2920,
+                1435.5
+            ],
+            "popup": {
+                "title": "Extraction 1\/2",
+                "description": "This Extraction is mutually exclusive with the Floor 1 Extraction.",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "16"
+        },
+        {
+            "categoryId": "4",
+            "position": [
+                2996.5,
+                1560
+            ],
+            "popup": {
+                "title": "Electronic Safe",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "17"
+        },
+        {
+            "categoryId": "16",
+            "position": [
+                3053.8174112494025,
+                1726.5779829622525
+            ],
+            "popup": {
+                "title": "Jacket",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "18"
+        },
+        {
+            "categoryId": "16",
+            "position": [
+                3062.8330227095307,
+                1726.401206266956
+            ],
+            "popup": {
+                "title": "Jacket",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "19"
+        },
+        {
+            "categoryId": "16",
+            "position": [
+                3110.2091770490297,
+                1758.044234725054
+            ],
+            "popup": {
+                "title": "Winter Coats",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "20"
+        },
+        {
+            "categoryId": "8",
+            "position": [
+                2243.296263314322,
+                379.0092347159895
+            ],
+            "popup": {
+                "title": "Document Case",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "21"
+        },
+        {
+            "categoryId": "4",
+            "position": [
+                1474.75,
+                518.375
+            ],
+            "popup": {
+                "title": "Safe",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "22"
+        },
+        {
+            "categoryId": "14",
+            "position": [
+                1505.5,
+                455.25
+            ],
+            "popup": {
+                "title": "Grenade Box",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "23"
+        },
+        {
+            "categoryId": "14",
+            "position": [
+                1539.25,
+                370.75
+            ],
+            "popup": {
+                "title": "Grenade Box",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "24"
+        },
+        {
+            "categoryId": "7",
+            "position": [
+                1468.1304544385694,
+                699.8589366793855
+            ],
+            "popup": {
+                "title": "Large Weapons Case",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "25"
+        },
+        {
+            "categoryId": "11",
+            "position": [
+                1552.75,
+                822.75
+            ],
+            "popup": {
+                "title": "Military Computer",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "26"
+        },
+        {
+            "categoryId": "16",
+            "position": [
+                2287.136883747888,
+                628.6179284748408
+            ],
+            "popup": {
+                "title": "Winter Coats",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "27"
+        },
+        {
+            "categoryId": "7",
+            "position": [
+                1559.5240059069306,
+                456.34903890826814
+            ],
+            "popup": {
+                "title": "Wooden Weapons Case",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "29"
+        },
+        {
+            "categoryId": "16",
+            "position": [
+                1582.5043607667028,
+                444.7697293243997
+            ],
+            "popup": {
+                "title": "Winter Coats",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "30"
+        },
+        {
+            "categoryId": "13",
+            "position": [
+                1502.8125,
+                426.15625
+            ],
+            "popup": {
+                "title": "Ammo Box",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "31"
+        },
+        {
+            "categoryId": "13",
+            "position": [
+                1503,
+                423.78125
+            ],
+            "popup": {
+                "title": "Ammo Box",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "32"
+        },
+        {
+            "categoryId": "7",
+            "position": [
+                1579.4997724754508,
+                513.0059697508402
+            ],
+            "popup": {
+                "title": "Large Weapons Case",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "33"
+        },
+        {
+            "categoryId": "9",
+            "position": [
+                1268.6379537963146,
+                1602.303966168717
+            ],
+            "popup": {
+                "title": "Office Drawers",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "34"
+        },
+        {
+            "categoryId": "6",
+            "position": [
+                2893.5,
+                1663
+            ],
+            "popup": {
+                "title": "Military Supply Case",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "35"
+        },
+        {
+            "categoryId": "8",
+            "position": [
+                2873.505182046833,
+                1656.8395766677293
+            ],
+            "popup": {
+                "title": "Document Case",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "36"
+        },
+        {
+            "categoryId": "11",
+            "position": [
+                2930,
+                1646.5
+            ],
+            "popup": {
+                "title": "Military Computer",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "37"
+        },
+        {
+            "categoryId": "11",
+            "position": [
+                2829.009658090905,
+                1611.2552005104872
+            ],
+            "popup": {
+                "title": "Computer",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "38"
+        },
+        {
+            "categoryId": "11",
+            "position": [
+                3106.3200897525035,
+                1443.7352704876334
+            ],
+            "popup": {
+                "title": "Military Computer",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "39"
+        },
+        {
+            "categoryId": "4",
+            "position": [
+                2845.75,
+                1502
+            ],
+            "popup": {
+                "title": "Electronic Safe",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "40"
+        },
+        {
+            "categoryId": "3",
+            "position": [
+                2905.75,
+                1488.75
+            ],
+            "popup": {
+                "title": "Command Room Entry Keycard",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "41"
+        },
+        {
+            "categoryId": "11",
+            "position": [
+                1180.75,
+                1497.25
+            ],
+            "popup": {
+                "title": "Military Computer",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "42"
+        },
+        {
+            "categoryId": "12",
+            "position": [
+                1497.121832467218,
+                475.52931034795324
+            ],
+            "popup": {
+                "title": "Pro Toolbox",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "43"
+        },
+        {
+            "categoryId": "13",
+            "position": [
+                1212.3345763443358,
+                1704.832487252042
+            ],
+            "popup": {
+                "title": "Ammo Box",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "44"
+        },
+        {
+            "categoryId": "13",
+            "position": [
+                1217.8145923456525,
+                1705.0092639473385
+            ],
+            "popup": {
+                "title": "Ammo Box",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "45"
+        },
+        {
+            "categoryId": "17",
+            "position": [
+                1198.25,
+                1683.5
+            ],
+            "popup": {
+                "title": "Suitcase",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "46"
+        },
+        {
+            "categoryId": "4",
+            "position": [
+                2396.7384348318033,
+                464.5691552395618
+            ],
+            "popup": {
+                "title": "Safe",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "47"
+        },
+        {
+            "categoryId": "3",
+            "position": [
+                2369.161270365528,
+                470.22600948905415
+            ],
+            "popup": {
+                "title": "Private Lounge Key",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "48"
+        },
+        {
+            "categoryId": "7",
+            "position": [
+                1468.4998259021672,
+                626.0006166564235
+            ],
+            "popup": {
+                "title": "Long Weapons Case",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "49"
+        },
+        {
+            "categoryId": "7",
+            "position": [
+                1499.25,
+                589.5
+            ],
+            "popup": {
+                "title": "Wooden Weapons Case",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "51"
+        },
+        {
+            "categoryId": "4",
+            "position": [
+                2246.4782438296616,
+                643.4671708797583
+            ],
+            "popup": {
+                "title": "Safe",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "52"
+        },
+        {
+            "categoryId": "17",
+            "position": [
+                2274.055408295937,
+                844.2854967367379
+            ],
+            "popup": {
+                "title": "Suitcase",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "53"
+        },
+        {
+            "categoryId": "17",
+            "position": [
+                2283.75,
+                693.75
+            ],
+            "popup": {
+                "title": "Suitcase",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "54"
+        },
+        {
+            "categoryId": "17",
+            "position": [
+                2319.25,
+                657.25
+            ],
+            "popup": {
+                "title": "Suitcase",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "55"
+        },
+        {
+            "categoryId": "3",
+            "position": [
+                1043.336055640751,
+                1390.1719318127525
+            ],
+            "popup": {
+                "title": "Weapon Storage Keycard",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "56"
+        },
+        {
+            "categoryId": "7",
+            "position": [
+                1004.0917523906558,
+                1368.6023407139608
+            ],
+            "popup": {
+                "title": "Premium Weapons Case",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "57"
+        },
+        {
+            "categoryId": "7",
+            "position": [
+                1004.0916908377767,
+                1355.519339115224
+            ],
+            "popup": {
+                "title": "Large Weapons Case",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "58"
+        },
+        {
+            "categoryId": "3",
+            "position": [
+                1250.872942317947,
+                1513.2063315295181
+            ],
+            "popup": {
+                "title": "Second Floor Lounge Key",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "59"
+        },
+        {
+            "categoryId": "18",
+            "position": [
+                1251.5,
+                1535
+            ],
+            "popup": {
+                "title": "Home First Aid Kit",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "60"
+        },
+        {
+            "categoryId": "18",
+            "position": [
+                1206.25,
+                1507
+            ],
+            "popup": {
+                "title": "Pro First Aid Kit",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "61"
+        },
+        {
+            "categoryId": "12",
+            "position": [
+                1259.125,
+                1584
+            ],
+            "popup": {
+                "title": "Pro Toolbox",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "62"
+        },
+        {
+            "categoryId": "17",
+            "position": [
+                1251.625,
+                1640.5
+            ],
+            "popup": {
+                "title": "Suitcase",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "63"
+        },
+        {
+            "categoryId": "7",
+            "position": [
+                1224.8855678281993,
+                1705.0096999892774
+            ],
+            "popup": {
+                "title": "Tactical Accessory Case",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "64"
+        },
+        {
+            "categoryId": "16",
+            "position": [
+                1199.25,
+                1599.75
+            ],
+            "popup": {
+                "title": "Winter Coats",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "65"
+        },
+        {
+            "categoryId": "7",
+            "position": [
+                2916.109473565146,
+                1671.9539841155918
+            ],
+            "popup": {
+                "title": "Long Weapons Case",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "67"
+        },
+        {
+            "categoryId": "11",
+            "position": [
+                1852.6197667087547,
+                439.99719459332925
+            ],
+            "popup": {
+                "title": "Military Computer",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "68"
+        },
+        {
+            "categoryId": "3",
+            "position": [
+                1576.3177919601112,
+                346.65909947670497
+            ],
+            "popup": {
+                "title": "Equipment Storage Key",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "69"
+        },
+        {
+            "categoryId": "7",
+            "position": [
+                1937.25,
+                610.75
+            ],
+            "popup": {
+                "title": "Long Weapons Case",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "70"
+        },
+        {
+            "categoryId": "12",
+            "position": [
+                1535.5200748983173,
+                523.8723758423974
+            ],
+            "popup": {
+                "title": "Home Toolbox",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "71"
+        },
+        {
+            "categoryId": "6",
+            "position": [
+                1468.5692451690506,
+                613.7838619235408
+            ],
+            "popup": {
+                "title": "Military Supply Case",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "72"
+        },
+        {
+            "categoryId": "11",
+            "position": [
+                2282.5791894093327,
+                918.5271303209684
+            ],
+            "popup": {
+                "title": "Computer",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "73"
+        },
+        {
+            "categoryId": "11",
+            "position": [
+                2315.1028390413226,
+                933.3275360287442
+            ],
+            "popup": {
+                "title": "Military Computer",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "74"
+        },
+        {
+            "categoryId": "11",
+            "position": [
+                2180.4013362346905,
+                487.4834112114936
+            ],
+            "popup": {
+                "title": "Military Computer",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "75"
+        },
+        {
+            "categoryId": "15",
+            "position": [
+                2243.539236177094,
+                486.9315511369844
+            ],
+            "popup": {
+                "title": "Gym Bag",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "76"
+        },
+        {
+            "categoryId": "9",
+            "position": [
+                2255.7871034786426,
+                462.8805228179345
+            ],
+            "popup": {
+                "title": "Office Drawers",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "77"
+        },
+        {
+            "categoryId": "9",
+            "position": [
+                2326.4225797224576,
+                525.7005346038826
+            ],
+            "popup": {
+                "title": "Office Drawers",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "78"
+        },
+        {
+            "categoryId": "18",
+            "position": [
+                2418.347753887169,
+                352.7699764728035
+            ],
+            "popup": {
+                "title": "Home First Aid Kit",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "79"
+        },
+        {
+            "categoryId": "7",
+            "position": [
+                2445.213133553448,
+                307.4155068938568
+            ],
+            "popup": {
+                "title": "Medium Weapons Case",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "80"
+        },
+        {
+            "categoryId": "7",
+            "position": [
+                1524.5925720055704,
+                390.07091097436825
+            ],
+            "popup": {
+                "title": "Tactical Accessory Case",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "81"
+        },
+        {
+            "categoryId": "20",
+            "position": [
+                863,
+                1364.0021582974825
+            ],
+            "popup": {
+                "title": "Extraction Lever",
+                "description": "Use this lever to activate the Sluice Extract.",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "82"
+        },
+        {
+            "categoryId": "21",
+            "position": [
+                1014.3749347133128,
+                1341.9993833435765
+            ],
+            "popup": {
+                "title": "Weapon 1\/3",
+                "description": "These weapons have a CHANCE of spawning.",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "83"
+        },
+        {
+            "categoryId": "21",
+            "position": [
+                1027.5357542204383,
+                1357.4016433004415
+            ],
+            "popup": {
+                "title": "Weapon 1\/3",
+                "description": "These weapons have a CHANCE of spawning.",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "84"
+        },
+        {
+            "categoryId": "21",
+            "position": [
+                1043.7314941788507,
+                1359.2660587187436
+            ],
+            "popup": {
+                "title": "Weapon 1\/3",
+                "description": "These weapons have a CHANCE of spawning.",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "85"
+        },
+        {
+            "categoryId": "17",
+            "position": [
+                1275.2695310396307,
+                1507.3456317378277
+            ],
+            "popup": {
+                "title": "Suitcase",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "86"
+        },
+        {
+            "categoryId": "15",
+            "position": [
+                1297.9921408330713,
+                1508.5027267745786
+            ],
+            "popup": {
+                "title": "Gym Bag",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "87"
+        },
+        {
+            "categoryId": "4",
+            "position": [
+                1275.0143404177809,
+                1539.2650330602494
+            ],
+            "popup": {
+                "title": "Safe",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "88"
+        },
+        {
+            "categoryId": "11",
+            "position": [
+                902.5009575380803,
+                1622.0058582360239
+            ],
+            "popup": {
+                "title": "Military Computer",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "89"
+        },
+        {
+            "categoryId": "7",
+            "position": [
+                1820.058451103418,
+                534.8982516901119
+            ],
+            "popup": {
+                "title": "Medium Weapons Case",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "90"
+        },
+        {
+            "categoryId": "16",
+            "position": [
+                1537.6134502347763,
+                322.5845094391133
+            ],
+            "popup": {
+                "title": "Winter Coats",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "91"
+        }
+    ],
+    "markerProgress": false
+}

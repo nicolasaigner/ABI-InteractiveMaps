@@ -1,0 +1,3119 @@
+{
+    "mapImage": "farm.png",
+    "mapName": "Fazenda",
+    "pageCategories": [
+        "Interactive_Maps"
+    ],
+    "defaultSort": "",
+    "description": "{{FarmMapDesc}}",
+    "coordinateOrder": "xy",
+    "mapBounds": [
+        [
+            0,
+            0
+        ],
+        [
+            3840,
+            2160
+        ]
+    ],
+    "origin": "bottom-left",
+    "useMarkerClustering": false,
+    "categories": [
+        {
+            "id": "17",
+            "listId": 1,
+            "name": "Player Spawn",
+            "color": "#00fa91",
+            "symbol": "",
+            "symbolColor": "",
+            "icon": "File:Spawnicon.png"
+        },
+        {
+            "id": "21",
+            "listId": 2,
+            "name": "SCAV SNIPER",
+            "color": "#ef0d0d",
+            "symbol": "",
+            "symbolColor": "",
+            "icon": "File:Scav.png"
+        },
+        {
+            "id": "19",
+            "listId": 3,
+            "name": "Extraction Point",
+            "color": "#fa0000",
+            "symbol": "",
+            "symbolColor": "",
+            "icon": "File:Extracticon.png"
+        },
+        {
+            "id": "20",
+            "listId": 4,
+            "name": "Key Rooms",
+            "color": "#fa005a",
+            "symbol": "",
+            "symbolColor": "",
+            "icon": "File:Keysico.png"
+        },
+        {
+            "id": "13",
+            "listId": 5,
+            "name": "Safe",
+            "color": "#fa005a",
+            "symbol": "",
+            "symbolColor": "",
+            "icon": "File:Safeico.png"
+        },
+        {
+            "id": "18",
+            "listId": 6,
+            "name": "Air Drop",
+            "color": "#fa005a",
+            "symbol": "",
+            "symbolColor": "",
+            "icon": "File:Airdropi.png"
+        },
+        {
+            "id": "8",
+            "listId": 7,
+            "name": "Military Supply Case",
+            "color": "#fa005a",
+            "symbol": "",
+            "symbolColor": "",
+            "icon": "File:Mstoragecase.png"
+        },
+        {
+            "id": "14",
+            "listId": 8,
+            "name": "Weapon Box",
+            "color": "#fa005a",
+            "symbol": "",
+            "symbolColor": "",
+            "icon": "File:Weaponboxico.png"
+        },
+        {
+            "id": "5",
+            "listId": 9,
+            "name": "Document Case",
+            "color": "#fa005a",
+            "symbol": "",
+            "symbolColor": "",
+            "icon": "File:Documentcaseico.png"
+        },
+        {
+            "id": "10",
+            "listId": 10,
+            "name": "Filing Cabinet",
+            "color": "#fa005a",
+            "symbol": "",
+            "symbolColor": "",
+            "icon": "File:Filingcabinetico.png"
+        },
+        {
+            "id": "7",
+            "listId": 11,
+            "name": "Storage Case",
+            "color": "#fa005a",
+            "symbol": "",
+            "symbolColor": "",
+            "icon": "File:Storagecase.png"
+        },
+        {
+            "id": "4",
+            "listId": 12,
+            "name": "Computer",
+            "color": "#fa005a",
+            "symbol": "",
+            "symbolColor": "",
+            "icon": "File:Computerico.png"
+        },
+        {
+            "id": "1",
+            "listId": 13,
+            "name": "Toolbox",
+            "color": "#ff9900",
+            "symbol": "\u2692",
+            "symbolColor": "#000",
+            "icon": "File:Toolboxico.png"
+        },
+        {
+            "id": "3",
+            "listId": 14,
+            "name": "Ammo Box",
+            "color": "#fa005a",
+            "symbol": "",
+            "symbolColor": "",
+            "icon": "File:Ammoboxico.png"
+        },
+        {
+            "id": "9",
+            "listId": 15,
+            "name": "Grenade Box",
+            "color": "#fa005a",
+            "symbol": "",
+            "symbolColor": "",
+            "icon": "File:Grenadeboxico.png"
+        },
+        {
+            "id": "2",
+            "listId": 16,
+            "name": "Duffle Bag",
+            "color": "#fa005a",
+            "symbol": "",
+            "symbolColor": "",
+            "icon": "File:Dufflebagico.png"
+        },
+        {
+            "id": "15",
+            "listId": 17,
+            "name": "Jacket",
+            "color": "#fa005a",
+            "symbol": "",
+            "symbolColor": "",
+            "icon": "File:Jacketico.png"
+        },
+        {
+            "id": "11",
+            "listId": 18,
+            "name": "Suitcase",
+            "color": "#fa005a",
+            "symbol": "",
+            "symbolColor": "",
+            "icon": "File:Suitcaseico.png"
+        },
+        {
+            "id": "12",
+            "listId": 19,
+            "name": "Medical",
+            "color": "#fa005a",
+            "symbol": "",
+            "symbolColor": "",
+            "icon": "File:Medicalico.png"
+        },
+        {
+            "id": "6",
+            "listId": 20,
+            "name": "Cash Register",
+            "color": "#fa005a",
+            "symbol": "",
+            "symbolColor": "",
+            "icon": "File:Cashierico.png"
+        }
+    ],
+    "markers": [
+        {
+            "categoryId": "1",
+            "config": {
+                "openPopupsOnHover": "false",
+                "enableFullscreen": "true",
+                "fullscreenMode": "window",
+                "enableSearch": "true",
+                "sidebarInitialState": "hide",
+                "enableSidebar": "true",
+                "sidebarOverlay": "true",
+                "useCustomPopups": "true",
+                "enableTooltips": "true"
+            },
+            "position": [
+                360.9780117957325,
+                476.5899705197331
+            ],
+            "popup": {
+                "title": "Toolbox",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "1"
+        },
+        {
+            "categoryId": "1",
+            "position": [
+                365.75098256874173,
+                498.51028073651605
+            ],
+            "popup": {
+                "title": "Toolbox",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "2"
+        },
+        {
+            "categoryId": "2",
+            "position": [
+                371.49622516588244,
+                505.40457185308486
+            ],
+            "popup": {
+                "title": "Duffle Bag",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "3"
+        },
+        {
+            "categoryId": "3",
+            "position": [
+                374.5,
+                459.375
+            ],
+            "popup": {
+                "title": "Ammo Box",
+                "description": "On the Bridge",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "4"
+        },
+        {
+            "categoryId": "3",
+            "position": [
+                375.5625,
+                457.5625
+            ],
+            "popup": {
+                "title": "Ammo Box",
+                "description": "On the Bridge",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "5"
+        },
+        {
+            "categoryId": "6",
+            "position": [
+                356.0282643274267,
+                430.8048064379041
+            ],
+            "popup": {
+                "title": "Cashier Register",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "6"
+        },
+        {
+            "categoryId": "4",
+            "position": [
+                368.13746795524634,
+                394.47719555444525
+            ],
+            "popup": {
+                "title": "Computer",
+                "description": "Second Foor",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "7"
+        },
+        {
+            "categoryId": "4",
+            "position": [
+                370.8775067323442,
+                388.1132345237663
+            ],
+            "popup": {
+                "title": "Computer",
+                "description": "Second Floor",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "8"
+        },
+        {
+            "categoryId": "4",
+            "position": [
+                375.47370081005676,
+                406.6747875299132
+            ],
+            "popup": {
+                "title": "Computer",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "9"
+        },
+        {
+            "categoryId": "5",
+            "position": [
+                370.6123416893993,
+                404.55346718635354
+            ],
+            "popup": {
+                "title": "Document Case",
+                "description": "Second Floor",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "10"
+        },
+        {
+            "categoryId": "10",
+            "position": [
+                370.4355649941026,
+                410.91742821703247
+            ],
+            "popup": {
+                "title": "Filing Cabinet",
+                "description": "Second Floor",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "11"
+        },
+        {
+            "categoryId": "2",
+            "position": [
+                391.73715677734737,
+                392.09071016794064
+            ],
+            "popup": {
+                "title": "Duffle Bag",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "12"
+        },
+        {
+            "categoryId": "2",
+            "position": [
+                614.4757928511099,
+                304.4094693008087
+            ],
+            "popup": {
+                "title": "Duffle Bag",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "13"
+        },
+        {
+            "categoryId": "15",
+            "position": [
+                556.6698134891096,
+                322.9710223069556
+            ],
+            "popup": {
+                "title": "Jacket",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "14"
+        },
+        {
+            "categoryId": "15",
+            "position": [
+                559.9401823520974,
+                340.560303488971
+            ],
+            "popup": {
+                "title": "Jacket",
+                "description": "Located Behind a Locked Door",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "15"
+        },
+        {
+            "categoryId": "2",
+            "position": [
+                564.0625,
+                343.4375
+            ],
+            "popup": {
+                "title": "Duffle BAg",
+                "description": "Located behind a Locked Door",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "16"
+        },
+        {
+            "categoryId": "13",
+            "position": [
+                567.0996385116111,
+                342.7700121801789
+            ],
+            "popup": {
+                "title": "Safe",
+                "description": "Located behind a Locked Door",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "17"
+        },
+        {
+            "categoryId": "14",
+            "position": [
+                661.4983938000153,
+                385.7267491372617
+            ],
+            "popup": {
+                "title": "Weapon Box",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "18"
+        },
+        {
+            "categoryId": "2",
+            "position": [
+                663.7964908388716,
+                398.1011178080263
+            ],
+            "popup": {
+                "title": "Duffle Bag",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "19"
+        },
+        {
+            "categoryId": "9",
+            "position": [
+                701,
+                664
+            ],
+            "popup": {
+                "title": "Grenade Box",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                },
+                "image": "File:Imagexaz.png"
+            },
+            "id": "20"
+        },
+        {
+            "categoryId": "13",
+            "position": [
+                696.4873971104247,
+                681.9744886039753
+            ],
+            "popup": {
+                "title": "Second Floor",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                },
+                "image": "File:Image\u00e7l.png"
+            },
+            "id": "21"
+        },
+        {
+            "categoryId": "2",
+            "position": [
+                441.125,
+                528.5
+            ],
+            "popup": {
+                "title": "Duffle Bag",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "22"
+        },
+        {
+            "categoryId": "15",
+            "position": [
+                436.625,
+                527.75
+            ],
+            "popup": {
+                "title": "Jacket",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "23"
+        },
+        {
+            "categoryId": "15",
+            "position": [
+                451.75,
+                605.625
+            ],
+            "popup": {
+                "title": "Jacket",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "24"
+        },
+        {
+            "categoryId": "1",
+            "position": [
+                455.25,
+                604
+            ],
+            "popup": {
+                "title": "Toolbox",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "25"
+        },
+        {
+            "categoryId": "2",
+            "position": [
+                588.25,
+                483.75
+            ],
+            "popup": {
+                "title": "Duffle Bag",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "26"
+        },
+        {
+            "categoryId": "14",
+            "position": [
+                582.75,
+                398
+            ],
+            "popup": {
+                "title": "Weapon Box",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "27"
+        },
+        {
+            "categoryId": "12",
+            "position": [
+                793.5,
+                381.375
+            ],
+            "popup": {
+                "title": "Medical",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "29"
+        },
+        {
+            "categoryId": "7",
+            "position": [
+                797.8815522369957,
+                374.6763550627526
+            ],
+            "popup": {
+                "title": "Storage Case",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "30"
+        },
+        {
+            "categoryId": "11",
+            "position": [
+                855.375,
+                366.75
+            ],
+            "popup": {
+                "title": "Suitcase",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "31"
+        },
+        {
+            "categoryId": "14",
+            "position": [
+                849.125,
+                385.375
+            ],
+            "popup": {
+                "title": "Weapon Box",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "32"
+        },
+        {
+            "categoryId": "3",
+            "position": [
+                855,
+                384.5
+            ],
+            "popup": {
+                "title": "Ammo Box",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "33"
+        },
+        {
+            "categoryId": "8",
+            "position": [
+                807.8694975056306,
+                414.18779708002023
+            ],
+            "popup": {
+                "title": "Military Supply Case",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "34"
+        },
+        {
+            "categoryId": "14",
+            "position": [
+                810.875,
+                437.25
+            ],
+            "popup": {
+                "title": "Weapon Box",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "35"
+        },
+        {
+            "categoryId": "12",
+            "position": [
+                799.0306627407988,
+                450.5154079634791
+            ],
+            "popup": {
+                "title": "Medical",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "36"
+        },
+        {
+            "categoryId": "13",
+            "position": [
+                816.8125,
+                432.5
+            ],
+            "popup": {
+                "title": "Safe",
+                "description": "Second Floor\n| Located behind a Locked Door",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "37"
+        },
+        {
+            "categoryId": "15",
+            "position": [
+                823.1606816487897,
+                431.600301566739
+            ],
+            "popup": {
+                "title": "Jacket",
+                "description": "Second Floor\n| Located behind a Locked Door",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "38"
+        },
+        {
+            "categoryId": "13",
+            "position": [
+                823.25,
+                429.375
+            ],
+            "popup": {
+                "title": "Safe",
+                "description": "Second Floor\n| Located behind a Locked Door",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "39"
+        },
+        {
+            "categoryId": "14",
+            "position": [
+                817.375,
+                439.125
+            ],
+            "popup": {
+                "title": "Weapon Box",
+                "description": "Second Floor\n| Located behind a Locked Door",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "40"
+        },
+        {
+            "categoryId": "14",
+            "position": [
+                822.9375,
+                422.8125
+            ],
+            "popup": {
+                "title": "Weapon Box",
+                "description": "Second Floor\n| Located behind a Locked Door",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "41"
+        },
+        {
+            "categoryId": "13",
+            "position": [
+                882.0273211825698,
+                443.09078676102035
+            ],
+            "popup": {
+                "title": "Safe",
+                "description": "Second Floor\n| Located behind a Locked Door",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "42"
+        },
+        {
+            "categoryId": "14",
+            "position": [
+                861.4328361805116,
+                463.3317183724853
+            ],
+            "popup": {
+                "title": "Weapon Box",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "43"
+        },
+        {
+            "categoryId": "1",
+            "position": [
+                811.7585848021566,
+                484.63331015573004
+            ],
+            "popup": {
+                "title": "Toolbox",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "44"
+        },
+        {
+            "categoryId": "14",
+            "position": [
+                802.6545849943798,
+                533.7772314481952
+            ],
+            "popup": {
+                "title": "Weapon Box",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "45"
+        },
+        {
+            "categoryId": "13",
+            "position": [
+                877.5,
+                504
+            ],
+            "popup": {
+                "title": "Safe",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                },
+                "image": "File:Imagebc.png"
+            },
+            "id": "46"
+        },
+        {
+            "categoryId": "15",
+            "position": [
+                559.75,
+                612.5
+            ],
+            "popup": {
+                "title": "Jacket",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "47"
+        },
+        {
+            "categoryId": "2",
+            "position": [
+                626.8501615218744,
+                702.510587108835
+            ],
+            "popup": {
+                "title": "Duffle Bag",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "48"
+        },
+        {
+            "categoryId": "14",
+            "position": [
+                733.9768388716363,
+                629.6785886466206
+            ],
+            "popup": {
+                "title": "Weapon Box",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "49"
+        },
+        {
+            "categoryId": "12",
+            "position": [
+                862.8470497428847,
+                660.2609569329388
+            ],
+            "popup": {
+                "title": "Medical",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "50"
+        },
+        {
+            "categoryId": "12",
+            "position": [
+                843.224836564958,
+                639.5780835832323
+            ],
+            "popup": {
+                "title": "Medical",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "51"
+        },
+        {
+            "categoryId": "2",
+            "position": [
+                1164.958422004837,
+                525.5571151169015
+            ],
+            "popup": {
+                "title": "Duffle Bag",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "52"
+        },
+        {
+            "categoryId": "2",
+            "position": [
+                920.8298058001816,
+                576.9991334482228
+            ],
+            "popup": {
+                "title": "Duffle Bag",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "53"
+        },
+        {
+            "categoryId": "12",
+            "position": [
+                1077.8075112235952,
+                620.1326471006022
+            ],
+            "popup": {
+                "title": "Medical",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "54"
+        },
+        {
+            "categoryId": "10",
+            "position": [
+                1079.13333643832,
+                615.9783947611313
+            ],
+            "popup": {
+                "title": "Filing Cabinet",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "55"
+        },
+        {
+            "categoryId": "10",
+            "position": [
+                1069.7641715875982,
+                620.5745888388439
+            ],
+            "popup": {
+                "title": "Filing Cabinet",
+                "description": "Second Floor",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "56"
+        },
+        {
+            "categoryId": "11",
+            "position": [
+                1070.824831759378,
+                616.7738898899661
+            ],
+            "popup": {
+                "title": "Suitcase",
+                "description": "Second Floor",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "57"
+        },
+        {
+            "categoryId": "14",
+            "position": [
+                672.1049955178134,
+                668.2159082212875
+            ],
+            "popup": {
+                "title": "Weapon Box",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "58"
+        },
+        {
+            "categoryId": "15",
+            "position": [
+                882.2924862255147,
+                427.446049227268
+            ],
+            "popup": {
+                "title": "Jacket",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "59"
+        },
+        {
+            "categoryId": "15",
+            "position": [
+                885.6512434361508,
+                424.6176221025218
+            ],
+            "popup": {
+                "title": "Jacket",
+                "description": "Second Floor",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "60"
+        },
+        {
+            "categoryId": "10",
+            "position": [
+                885.875,
+                417.25
+            ],
+            "popup": {
+                "title": "Filing Cabinet",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "61"
+        },
+        {
+            "categoryId": "11",
+            "position": [
+                884.2370298737777,
+                417.54655429065633
+            ],
+            "popup": {
+                "title": "Suitcase",
+                "description": "Second Floor",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "62"
+        },
+        {
+            "categoryId": "14",
+            "position": [
+                876.6356319760224,
+                415.24845725180006
+            ],
+            "popup": {
+                "title": "Weapon Box",
+                "description": "Second Floor",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "63"
+        },
+        {
+            "categoryId": "6",
+            "position": [
+                864.4380400005545,
+                415.60201064239334
+            ],
+            "popup": {
+                "title": "Cashier Register",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "64"
+        },
+        {
+            "categoryId": "11",
+            "position": [
+                859.6650692275452,
+                414.7181271659102
+            ],
+            "popup": {
+                "title": "Suitcase",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "65"
+        },
+        {
+            "categoryId": "15",
+            "position": [
+                862.3167196569948,
+                419.667874634216
+            ],
+            "popup": {
+                "title": "Jacket",
+                "description": "Second Floor",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "66"
+        },
+        {
+            "categoryId": "15",
+            "position": [
+                804.25,
+                405
+            ],
+            "popup": {
+                "title": "Jacket",
+                "description": "Second Floor",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "67"
+        },
+        {
+            "categoryId": "15",
+            "position": [
+                808.625,
+                411.625
+            ],
+            "popup": {
+                "title": "Jacket",
+                "description": "Second Floor",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "68"
+        },
+        {
+            "categoryId": "2",
+            "position": [
+                803,
+                413.625
+            ],
+            "popup": {
+                "title": "Duffle Bag",
+                "description": "Second Floor",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "69"
+        },
+        {
+            "categoryId": "14",
+            "position": [
+                793.9977208622664,
+                393.0664631427462
+            ],
+            "popup": {
+                "title": "Weapon Box",
+                "description": "Second Floor",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "70"
+        },
+        {
+            "categoryId": "12",
+            "position": [
+                821.5,
+                417.5
+            ],
+            "popup": {
+                "title": "Medical",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "71"
+        },
+        {
+            "categoryId": "1",
+            "position": [
+                883.5,
+                441.125
+            ],
+            "popup": {
+                "title": "Toolbox",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "72"
+        },
+        {
+            "categoryId": "14",
+            "position": [
+                845.875,
+                424
+            ],
+            "popup": {
+                "title": "Weapon Box",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "73"
+        },
+        {
+            "categoryId": "11",
+            "position": [
+                843.625,
+                414.5
+            ],
+            "popup": {
+                "title": "Suitcase",
+                "description": "Second Floor",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "74"
+        },
+        {
+            "categoryId": "12",
+            "position": [
+                834.75,
+                635.125
+            ],
+            "popup": {
+                "title": "Medical",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "75"
+        },
+        {
+            "categoryId": "12",
+            "position": [
+                833.875,
+                640.625
+            ],
+            "popup": {
+                "title": "Medical",
+                "description": "Located behind a Locked Door",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "76"
+        },
+        {
+            "categoryId": "14",
+            "position": [
+                892.5,
+                692.25
+            ],
+            "popup": {
+                "title": "Weapon Box",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "77"
+        },
+        {
+            "categoryId": "1",
+            "position": [
+                826,
+                750
+            ],
+            "popup": {
+                "title": "Toolbox",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "78"
+        },
+        {
+            "categoryId": "15",
+            "position": [
+                1630.941790806772,
+                593.43936611081
+            ],
+            "popup": {
+                "title": "Jacket",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "80"
+        },
+        {
+            "categoryId": "9",
+            "position": [
+                1621.9261793466435,
+                585.1308614318681
+            ],
+            "popup": {
+                "title": "Grenade Case",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "81"
+        },
+        {
+            "categoryId": "2",
+            "position": [
+                1587.4547237637994,
+                603.692414438015
+            ],
+            "popup": {
+                "title": "Duffle Bag",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "82"
+        },
+        {
+            "categoryId": "1",
+            "position": [
+                1572.959034749475,
+                692.4343154769267
+            ],
+            "popup": {
+                "title": "Toolbox",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "83"
+        },
+        {
+            "categoryId": "12",
+            "position": [
+                1550.6851711420989,
+                688.1916747898074
+            ],
+            "popup": {
+                "title": "Medical",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "84"
+        },
+        {
+            "categoryId": "15",
+            "position": [
+                1561.822102945787,
+                736.2749359104927
+            ],
+            "popup": {
+                "title": "Jacket",
+                "description": "Located behind Locked Door",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "85"
+        },
+        {
+            "categoryId": "15",
+            "position": [
+                1566.7718504140928,
+                740.6943532929085
+            ],
+            "popup": {
+                "title": "Jacket",
+                "description": "Located behind Locked Door",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "86"
+        },
+        {
+            "categoryId": "10",
+            "position": [
+                1563.76664659405,
+                743.8763338082481
+            ],
+            "popup": {
+                "title": "Filing Cabinet",
+                "description": "Second Floor\nLocated behind Locked Door",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "87"
+        },
+        {
+            "categoryId": "1",
+            "position": [
+                1474.4944154692485,
+                812.8192449739364
+            ],
+            "popup": {
+                "title": "Toolbox",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "88"
+        },
+        {
+            "categoryId": "1",
+            "position": [
+                1481.035153195224,
+                772.16060505571
+            ],
+            "popup": {
+                "title": "Toolbox",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "89"
+        },
+        {
+            "categoryId": "1",
+            "position": [
+                1476.9692892034013,
+                785.9491872888476
+            ],
+            "popup": {
+                "title": "Toolbox",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "90"
+        },
+        {
+            "categoryId": "2",
+            "position": [
+                1421.9917369661473,
+                815.2941187080894
+            ],
+            "popup": {
+                "title": "Duffle Bag",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "91"
+        },
+        {
+            "categoryId": "14",
+            "position": [
+                1293.8286328760855,
+                790.0150512806703
+            ],
+            "popup": {
+                "title": "Weapon Box",
+                "description": "Second Floor",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "92"
+        },
+        {
+            "categoryId": "15",
+            "position": [
+                1382.0402038291072,
+                707.8138879677341
+            ],
+            "popup": {
+                "title": "Jacket",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "93"
+        },
+        {
+            "categoryId": "15",
+            "position": [
+                1380.625990266734,
+                723.7237905444315
+            ],
+            "popup": {
+                "title": "Jacket",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "94"
+        },
+        {
+            "categoryId": "9",
+            "position": [
+                1340.320903739101,
+                750.240294838927
+            ],
+            "popup": {
+                "title": "Grenade Box",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "95"
+        },
+        {
+            "categoryId": "17",
+            "position": [
+                1589.5,
+                680
+            ],
+            "popup": {
+                "title": "Tactical Ops Spawn",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                },
+                "image": "File:Image(5).png"
+            },
+            "id": "99"
+        },
+        {
+            "categoryId": "14",
+            "position": [
+                814.7637886221995,
+                411.3593699552741
+            ],
+            "popup": {
+                "title": "Weapon Box",
+                "description": "Second Floor",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "101"
+        },
+        {
+            "categoryId": "11",
+            "position": [
+                1496.5,
+                552.5
+            ],
+            "popup": {
+                "title": "Suitcase",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "103"
+        },
+        {
+            "categoryId": "2",
+            "position": [
+                1493.75,
+                561.25
+            ],
+            "popup": {
+                "title": "Duffle Bag",
+                "description": "Second Floor",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "104"
+        },
+        {
+            "categoryId": "10",
+            "position": [
+                1499.75,
+                560.75
+            ],
+            "popup": {
+                "title": "Filing Cabinet",
+                "description": "Second Floor",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "105"
+        },
+        {
+            "categoryId": "12",
+            "position": [
+                1656.5,
+                512.75
+            ],
+            "popup": {
+                "title": "Medical",
+                "description": "Second Floor",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "106"
+        },
+        {
+            "categoryId": "14",
+            "position": [
+                1350.6347169387461,
+                537.0932634693997
+            ],
+            "popup": {
+                "title": "Weapon Box",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "107"
+        },
+        {
+            "categoryId": "2",
+            "position": [
+                1344.375,
+                527.375
+            ],
+            "popup": {
+                "title": "Duffle Bag",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "108"
+        },
+        {
+            "categoryId": "15",
+            "position": [
+                1345.375,
+                534.25
+            ],
+            "popup": {
+                "title": "Jacket",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "109"
+        },
+        {
+            "categoryId": "15",
+            "position": [
+                1325.75,
+                557.5
+            ],
+            "popup": {
+                "title": "Jacket",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "110"
+        },
+        {
+            "categoryId": "7",
+            "position": [
+                1357.5,
+                536.5
+            ],
+            "popup": {
+                "title": "Storage Case",
+                "description": "Second Floor",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "111"
+        },
+        {
+            "categoryId": "10",
+            "position": [
+                1332.25,
+                547.125
+            ],
+            "popup": {
+                "title": "Filing Cabinet",
+                "description": "Second Floor",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "112"
+        },
+        {
+            "categoryId": "15",
+            "position": [
+                1318.5,
+                555.625
+            ],
+            "popup": {
+                "title": "Jacket",
+                "description": "Second Floor",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "113"
+        },
+        {
+            "categoryId": "14",
+            "position": [
+                1149,
+                756.5
+            ],
+            "popup": {
+                "title": "Weapon Box",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "114"
+        },
+        {
+            "categoryId": "14",
+            "position": [
+                1154.5,
+                773
+            ],
+            "popup": {
+                "title": "Weapon Box",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "115"
+        },
+        {
+            "categoryId": "15",
+            "position": [
+                1154.75,
+                762.5
+            ],
+            "popup": {
+                "title": "Jacket",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "116"
+        },
+        {
+            "categoryId": "15",
+            "position": [
+                1149.5,
+                781
+            ],
+            "popup": {
+                "title": "Jacket",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "117"
+        },
+        {
+            "categoryId": "7",
+            "position": [
+                1069.5,
+                867.75
+            ],
+            "popup": {
+                "title": "Abondoned Create",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                },
+                "image": "File:Image.png"
+            },
+            "id": "118"
+        },
+        {
+            "categoryId": "3",
+            "position": [
+                1051,
+                908.25
+            ],
+            "popup": {
+                "title": "Ammo Box",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "119"
+        },
+        {
+            "categoryId": "11",
+            "position": [
+                1021.75,
+                912.75
+            ],
+            "popup": {
+                "title": "Suitcase",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "120"
+        },
+        {
+            "categoryId": "8",
+            "position": [
+                981.5,
+                857
+            ],
+            "popup": {
+                "title": "Military Supply Case",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                },
+                "image": "File:Image23.png"
+            },
+            "id": "121"
+        },
+        {
+            "categoryId": "2",
+            "position": [
+                880,
+                728.5
+            ],
+            "popup": {
+                "title": "Duffle Bag",
+                "description": "Second Floor",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "122"
+        },
+        {
+            "categoryId": "2",
+            "position": [
+                841.5,
+                719.5
+            ],
+            "popup": {
+                "title": "Duffle Bag",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "123"
+        },
+        {
+            "categoryId": "13",
+            "position": [
+                1336.431816442575,
+                535.1030566629199
+            ],
+            "popup": {
+                "title": "Safe",
+                "description": "Second Floor\n| Located behind Locked Door",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "124"
+        },
+        {
+            "categoryId": "18",
+            "position": [
+                1347.7455249415598,
+                792.3131483195266
+            ],
+            "popup": {
+                "title": "Air Drop",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                },
+                "image": "File:Image(1).png"
+            },
+            "id": "125"
+        },
+        {
+            "categoryId": "11",
+            "position": [
+                182.43354954612929,
+                337.6434880165765
+            ],
+            "popup": {
+                "title": "Suitcase",
+                "description": "Second Floor",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "127"
+        },
+        {
+            "categoryId": "2",
+            "position": [
+                268.75,
+                289.625
+            ],
+            "popup": {
+                "title": "Duffle Bag",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "128"
+        },
+        {
+            "categoryId": "1",
+            "position": [
+                306.875,
+                280
+            ],
+            "popup": {
+                "title": "Toolbox",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "129"
+        },
+        {
+            "categoryId": "15",
+            "position": [
+                271.875,
+                294.875
+            ],
+            "popup": {
+                "title": "Jacket",
+                "description": "Second Floor",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "130"
+        },
+        {
+            "categoryId": "14",
+            "position": [
+                1319.1077003035045,
+                734.6839456528229
+            ],
+            "popup": {
+                "title": "Weapon Box",
+                "description": "Located behind Locked Door",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "132"
+        },
+        {
+            "categoryId": "14",
+            "position": [
+                1323.3503409906239,
+                747.0583143235875
+            ],
+            "popup": {
+                "title": "Weapon Box",
+                "description": "Located behind Locked Door",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "133"
+        },
+        {
+            "categoryId": "12",
+            "position": [
+                1319.125,
+                747.25
+            ],
+            "popup": {
+                "title": "Medical",
+                "description": "Located behind Locked Door",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "134"
+        },
+        {
+            "categoryId": "3",
+            "position": [
+                1322.5,
+                735.875
+            ],
+            "popup": {
+                "title": "Ammo Box",
+                "description": "Located behind Locked Door",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "135"
+        },
+        {
+            "categoryId": "5",
+            "position": [
+                697.0305095546393,
+                729.7341981845171
+            ],
+            "popup": {
+                "title": "Document Case",
+                "description": "Second Floor\n| Located behind Locked Door",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "137"
+        },
+        {
+            "categoryId": "14",
+            "position": [
+                1142.5077817021643,
+                776.5800224381259
+            ],
+            "popup": {
+                "title": "Weapon Box",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "138"
+        },
+        {
+            "categoryId": "14",
+            "position": [
+                1154.25,
+                771.75
+            ],
+            "popup": {
+                "title": "Weapon Box",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "139"
+        },
+        {
+            "categoryId": "17",
+            "position": [
+                176.06958851545036,
+                392.7978169491272
+            ],
+            "popup": {
+                "title": "Tactical Ops Spawn",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                },
+                "image": "File:Image444.png"
+            },
+            "id": "140"
+        },
+        {
+            "categoryId": "19",
+            "position": [
+                1549.5,
+                787.5
+            ],
+            "popup": {
+                "title": "Extract",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                },
+                "image": "File:Image(8).png"
+            },
+            "id": "141"
+        },
+        {
+            "categoryId": "19",
+            "position": [
+                1684,
+                514
+            ],
+            "popup": {
+                "title": "Extract",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                },
+                "image": "File:Image9090.png"
+            },
+            "id": "142"
+        },
+        {
+            "categoryId": "19",
+            "position": [
+                1266,
+                818
+            ],
+            "popup": {
+                "title": "Extract",
+                "description": "Sometimes Open",
+                "link": {
+                    "url": "",
+                    "label": ""
+                },
+                "image": "File:Imageex.png"
+            },
+            "id": "143"
+        },
+        {
+            "categoryId": "19",
+            "position": [
+                956,
+                349
+            ],
+            "popup": {
+                "title": "Extract",
+                "description": "10 Minutes after Start of the Raid | 15000 Koens (Normal Mode) | 30000 Koens (Lockdown Mode",
+                "link": {
+                    "url": "",
+                    "label": ""
+                },
+                "image": "File:Imageexx.png"
+            },
+            "id": "144"
+        },
+        {
+            "categoryId": "19",
+            "position": [
+                520,
+                536
+            ],
+            "popup": {
+                "title": "Extract",
+                "description": "10 Minutes after Start of the Raid | ",
+                "link": {
+                    "url": "",
+                    "label": ""
+                },
+                "image": "File:Image123.png"
+            },
+            "id": "145"
+        },
+        {
+            "categoryId": "19",
+            "position": [
+                157,
+                346
+            ],
+            "popup": {
+                "title": "Extract",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                },
+                "image": "File:ImageRQ.png"
+            },
+            "id": "146"
+        },
+        {
+            "categoryId": "13",
+            "position": [
+                380.625,
+                421.125
+            ],
+            "popup": {
+                "title": "Safe",
+                "description": "Second Floor\n| Located behind Locked Door",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "147"
+        },
+        {
+            "categoryId": "4",
+            "position": [
+                376,
+                423.75
+            ],
+            "popup": {
+                "title": "Computer",
+                "description": "Second Floor\n| Located behind Locked Door",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "148"
+        },
+        {
+            "categoryId": "11",
+            "position": [
+                378.4375,
+                427.4375
+            ],
+            "popup": {
+                "title": "Suitcase",
+                "description": "Second Floor\n| Located behind Locked Door",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "149"
+        },
+        {
+            "categoryId": "17",
+            "position": [
+                995.25,
+                887.5
+            ],
+            "popup": {
+                "title": "Tactical Ops Spawn",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                },
+                "image": "File:Imagekl.png"
+            },
+            "id": "150"
+        },
+        {
+            "categoryId": "15",
+            "position": [
+                586.5625,
+                480.1875
+            ],
+            "popup": {
+                "title": "Jacket",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "151"
+        },
+        {
+            "categoryId": "15",
+            "position": [
+                702.8641404994283,
+                727.9664312315507
+            ],
+            "popup": {
+                "title": "Jacket",
+                "description": "Second Floor\n| Located behind Locked Door",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "152"
+        },
+        {
+            "categoryId": "1",
+            "position": [
+                707.8750500114666,
+                735.0001398651098
+            ],
+            "popup": {
+                "title": "Toolbox",
+                "description": "Second Floor\n| Located behind Locked Door",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "153"
+        },
+        {
+            "categoryId": "19",
+            "position": [
+                283.1018750995738,
+                275.6076548641907
+            ],
+            "popup": {
+                "title": "Extract",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                },
+                "image": "File:Imagejhg.png"
+            },
+            "id": "154"
+        },
+        {
+            "categoryId": "12",
+            "position": [
+                861.0669277990202,
+                646.4740680432373
+            ],
+            "popup": {
+                "title": "Medical",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "155"
+        },
+        {
+            "categoryId": "19",
+            "position": [
+                890.9541906605785,
+                674.9344511980626
+            ],
+            "popup": {
+                "title": "Extraction",
+                "description": "10 Minutes after Start of the Raid | No Backpack",
+                "link": {
+                    "url": "",
+                    "label": ""
+                },
+                "image": "File:ImageADW.png"
+            },
+            "id": "156"
+        },
+        {
+            "categoryId": "20",
+            "position": [
+                1340,
+                539.5
+            ],
+            "popup": {
+                "title": "Master Bedroom",
+                "description": "Second Floor",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "157"
+        },
+        {
+            "categoryId": "20",
+            "position": [
+                710.625,
+                735.875
+            ],
+            "popup": {
+                "title": "Stables Warehouse",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                },
+                "image": "File:Imagelp.png"
+            },
+            "id": "158"
+        },
+        {
+            "categoryId": "20",
+            "position": [
+                874,
+                442
+            ],
+            "popup": {
+                "title": "Motel 201",
+                "description": "Second Floor",
+                "link": {
+                    "url": "",
+                    "label": ""
+                },
+                "image": "File:Image098.png"
+            },
+            "id": "159"
+        },
+        {
+            "categoryId": "20",
+            "position": [
+                811.875,
+                432
+            ],
+            "popup": {
+                "title": "Motel Main Guest Room",
+                "description": "Second Floor",
+                "link": {
+                    "url": "",
+                    "label": ""
+                },
+                "image": "File:Imagejkk.png"
+            },
+            "id": "160"
+        },
+        {
+            "categoryId": "20",
+            "position": [
+                841.28125,
+                639
+            ],
+            "popup": {
+                "title": "Recycling Office",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                },
+                "image": "File:Image312.png"
+            },
+            "id": "161"
+        },
+        {
+            "categoryId": "20",
+            "position": [
+                1320.5,
+                731.625
+            ],
+            "popup": {
+                "title": "Loading Area",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "162"
+        },
+        {
+            "categoryId": "20",
+            "position": [
+                1559.125,
+                739.375
+            ],
+            "popup": {
+                "title": "House",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                },
+                "image": "File:Image(6).png"
+            },
+            "id": "163"
+        },
+        {
+            "categoryId": "20",
+            "position": [
+                371.70813704603694,
+                420.8435459273197
+            ],
+            "popup": {
+                "title": "Barn Office",
+                "description": "Second Floor",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "164"
+        },
+        {
+            "categoryId": "20",
+            "position": [
+                564.125,
+                338.25
+            ],
+            "popup": {
+                "title": "Grave Yard",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                },
+                "image": "File:ImageLKJ.png"
+            },
+            "id": "165"
+        },
+        {
+            "categoryId": "17",
+            "position": [
+                395.75,
+                301
+            ],
+            "popup": {
+                "title": "Tactical Ops Spawn",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                },
+                "image": "File:ImageOO.png"
+            },
+            "id": "166"
+        },
+        {
+            "categoryId": "17",
+            "position": [
+                1557.0491321727777,
+                517.6021638285529
+            ],
+            "popup": {
+                "title": "Tactical Ops Spawn",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                },
+                "image": "File:Image(3).png"
+            },
+            "id": "168"
+        },
+        {
+            "categoryId": "17",
+            "position": [
+                1516.7440456451445,
+                796.5557890066459
+            ],
+            "popup": {
+                "title": "Tactical Ops Spawn",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "169"
+        },
+        {
+            "categoryId": "2",
+            "position": [
+                752.0961933072726,
+                584.7672094682415
+            ],
+            "popup": {
+                "title": "Duffle Bag",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "170"
+        },
+        {
+            "categoryId": "3",
+            "position": [
+                888.3785626844476,
+                330.35386507067614
+            ],
+            "popup": {
+                "title": "Ammo Box",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "171"
+        },
+        {
+            "categoryId": "9",
+            "position": [
+                888.0034876672478,
+                333.8498929015583
+            ],
+            "popup": {
+                "title": "Grenade Box",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "172"
+        },
+        {
+            "categoryId": "14",
+            "position": [
+                969.2498236947761,
+                865.4671850227737
+            ],
+            "popup": {
+                "title": "Weapon Box",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                },
+                "image": "File:Image....png"
+            },
+            "id": "174"
+        },
+        {
+            "categoryId": "7",
+            "position": [
+                1075.5071769994297,
+                621.6248537388875
+            ],
+            "popup": {
+                "title": "Storage Case",
+                "description": "Second Floor Lockdown Only",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "175"
+        },
+        {
+            "categoryId": "4",
+            "position": [
+                1333.3780816403546,
+                539.3634394930586
+            ],
+            "popup": {
+                "title": "Computer",
+                "description": "Second Floor | Located Behind Locked Door",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "176"
+        },
+        {
+            "categoryId": "15",
+            "position": [
+                1337.9411817779535,
+                539.8630758437731
+            ],
+            "popup": {
+                "title": "Jacket",
+                "description": "Second Floor |  Located behind Locked Door",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "177"
+        },
+        {
+            "categoryId": "3",
+            "position": [
+                1128.1888693831368,
+                896.788175239839
+            ],
+            "popup": {
+                "title": "Ammo Box",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "178"
+        },
+        {
+            "categoryId": "4",
+            "position": [
+                884.96875,
+                418.71875
+            ],
+            "popup": {
+                "title": "Computer",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "179"
+        },
+        {
+            "categoryId": "17",
+            "position": [
+                609.1723688864527,
+                627.5550880933672
+            ],
+            "popup": {
+                "title": "Player Spawn",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                },
+                "image": "File:Image\u00b4576.png"
+            },
+            "id": "180"
+        },
+        {
+            "categoryId": "17",
+            "position": [
+                1221.880517890354,
+                567.8067452927976
+            ],
+            "popup": {
+                "title": "Player Spawn",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                },
+                "image": "File:Image2.png"
+            },
+            "id": "181"
+        },
+        {
+            "categoryId": "17",
+            "position": [
+                1391.0558152892359,
+                542.5276778653787
+            ],
+            "popup": {
+                "title": "Player Spawn",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                },
+                "image": "File:Image9888880-.png"
+            },
+            "id": "182"
+        },
+        {
+            "categoryId": "17",
+            "position": [
+                558.25,
+                290.75
+            ],
+            "popup": {
+                "title": "Player Spawn",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                },
+                "image": "File:ImageE12.png"
+            },
+            "id": "183"
+        },
+        {
+            "categoryId": "17",
+            "position": [
+                393,
+                582.75
+            ],
+            "popup": {
+                "title": "Player Spawn",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                },
+                "image": "File:Imagewad.png"
+            },
+            "id": "184"
+        },
+        {
+            "categoryId": "14",
+            "position": [
+                1593.75,
+                598.75
+            ],
+            "popup": {
+                "title": "Ammo Box",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                },
+                "image": "File:Image(4).png"
+            },
+            "id": "185"
+        },
+        {
+            "categoryId": "21",
+            "position": [
+                1075.6875,
+                613.1875
+            ],
+            "popup": {
+                "title": "SCAV SNIPER",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                },
+                "image": "File:ImageWQE.png"
+            },
+            "id": "186"
+        },
+        {
+            "categoryId": "21",
+            "position": [
+                881.7621561396248,
+                734.6839456528229
+            ],
+            "popup": {
+                "title": "SCAV SNIPER",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                },
+                "image": "File:Image333.png"
+            },
+            "id": "187"
+        },
+        {
+            "categoryId": "21",
+            "position": [
+                842.8712831743646,
+                567.8067452927976
+            ],
+            "popup": {
+                "title": "SCAV SNIPER",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                },
+                "image": "File:Image412.png"
+            },
+            "id": "188"
+        },
+        {
+            "categoryId": "14",
+            "position": [
+                801.125,
+                436.375
+            ],
+            "popup": {
+                "title": "Weapon Box",
+                "description": "First Floor",
+                "link": {
+                    "url": "",
+                    "label": ""
+                },
+                "image": "File:Image..312.png"
+            },
+            "id": "189"
+        },
+        {
+            "categoryId": "21",
+            "position": [
+                365.25,
+                448.25
+            ],
+            "popup": {
+                "title": "SCAV SNIPER",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                },
+                "image": "File:Image......png"
+            },
+            "id": "190"
+        },
+        {
+            "categoryId": "17",
+            "position": [
+                365.9277592640384,
+                482.6003781598187
+            ],
+            "popup": {
+                "title": "Tactical Ops Spawn",
+                "description": "",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "191"
+        }
+    ],
+    "markerProgress": false
+}
