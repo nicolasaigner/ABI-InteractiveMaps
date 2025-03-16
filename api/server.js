@@ -1,86 +1,83 @@
 const express = require('express');
 const cors = require('cors');
-const fs = require('fs');
 const path = require('path');
+const fs = require('fs');
 
 const app = express();
+const PORT = process.env.PORT || 3000;
+
 app.use(cors());
+app.use(express.static('public'));
 
-const coordinatesPath = path.join(__dirname, '../public/coordinates');
-const localesPath = path.join(__dirname, './locales'); // Agora correto dentro de api/
-
-// Servir arquivos JSON de traduções
-app.use('/api/locales', express.static(localesPath));
-
-// Função para carregar traduções
-function loadTranslations(lang) {
-    const filePath = path.join(localesPath, `${lang}.json`);
-    if (fs.existsSync(filePath)) {
-        return JSON.parse(fs.readFileSync(filePath, 'utf-8'));
-    }
-    return {}; // Retorna vazio se não houver tradução
-}
-
-// Rota para obter os mapas com nomes traduzidos
+// Rota para obter os mapas disponíveis
 app.get('/api/maps', (req, res) => {
-    const lang = req.query.lang || 'pt-br';
-
+    const coordinatesPath = path.join(__dirname, '../public/coordinates');
     fs.readdir(coordinatesPath, (err, files) => {
-        if (err) return res.status(500).json({ error: "Erro ao ler mapas." });
+        if (err) {
+            res.status(500).json({ error: "Erro ao carregar os mapas" });
+            return;
+        }
 
-        const translations = loadTranslations(lang);
-        let maps = [];
-
-        files.forEach(file => {
-            if (file.endsWith('.json')) {
-                const filePath = path.join(coordinatesPath, file);
-                const mapData = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
-                const translatedName = translations[mapData.mapName] || mapData.mapName; // Traduz nome do mapa
-                maps.push({ id: path.basename(file, '.json'), name: translatedName });
-            }
+        const maps = files.map(file => {
+            const filePath = path.join(coordinatesPath, file);
+            const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+            return {
+                id: path.basename(file, '.json'), // ID do mapa
+                mapName: data.mapName // Nome correto do mapa
+            };
         });
 
         res.json(maps);
     });
 });
 
-// Endpoint para carregar coordenadas traduzidas
-app.get('/api/coordinates/:map', (req, res) => {
-    const { map } = req.params;
-    const lang = req.query.lang || 'pt-br';
-    const translations = loadTranslations(lang);
 
-    const filePath = path.join(coordinatesPath, `${map}.json`);
-    if (!fs.existsSync(filePath)) return res.status(404).json({ error: "Mapa não encontrado." });
+// Rota para obter os dados do mapa selecionado
+app.get('/api/coordinates/:mapName', (req, res) => {
+    const mapName = req.params.mapName;
+    const lang = req.query.lang || 'en';
+    const filePath = path.join(__dirname, `../public/coordinates/${mapName}.json`);
+    const translationPath = path.join(__dirname, `../api/locales/${lang}.json`);
 
-    let mapData = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
-
-    // Traduz categorias
-    if (mapData.categories) {
-        mapData.categories.forEach(category => {
-            if (translations[category.name]) {
-                category.name = translations[category.name];
-            }
-        });
+    if (!fs.existsSync(filePath)) {
+        res.status(404).json({ error: "Mapa não encontrado" });
+        return;
     }
 
-    // Traduz títulos e descrições dos popups
-    if (mapData.markers) {
-        mapData.markers.forEach(marker => {
+    let translations = {};
+    if (fs.existsSync(translationPath)) {
+        translations = JSON.parse(fs.readFileSync(translationPath, 'utf8'));
+    }
+
+    let mapData = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+
+    mapData.markers.forEach(marker => {
+        if (marker.popup) {
             if (translations[marker.popup.title]) {
                 marker.popup.title = translations[marker.popup.title];
             }
-            if (marker.popup.description && translations[marker.popup.description]) {
+            if (translations[marker.popup.description]) {
                 marker.popup.description = translations[marker.popup.description];
             }
-        });
-    }
+        }
+    });
 
     res.json(mapData);
 });
 
-// Servindo arquivos estáticos da pasta public/
-app.use(express.static(path.join(__dirname, '../public')));
+// Rota para obter traduções
+app.get('/api/locales/:lang.json', (req, res) => {
+    const lang = req.params.lang;
+    const translationPath = path.join(__dirname, `../api/locales/${lang}.json`);
 
-const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => console.log(`Servidor rodando na porta ${PORT}`));
+    if (!fs.existsSync(translationPath)) {
+        res.status(404).json({ error: "Tradução não encontrada" });
+        return;
+    }
+
+    res.sendFile(translationPath);
+});
+
+app.listen(PORT, () => {
+    console.log(`Servidor rodando em http://localhost:${PORT}`);
+});
