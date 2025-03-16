@@ -1,7 +1,15 @@
 document.addEventListener('DOMContentLoaded', () => {
     let map, markersLayer, currentMap, translations = {};
     const languageSelector = document.getElementById('language-selector');
-    const mapTitle = document.getElementById('map-title'); // Pegando a referência correta
+    const mapTitle = document.getElementById('map-title');
+    const sidebar = document.getElementById('sidebar');
+    const toggleSidebar = document.getElementById('toggle-sidebar');
+    const toggleAll = document.getElementById('toggle-all');
+
+    // Adiciona evento para abrir/fechar a sidebar
+    toggleSidebar.addEventListener('click', () => {
+        sidebar.classList.toggle('collapsed');
+    });
 
     async function loadTranslations(lang) {
         try {
@@ -14,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 if (translations[key]) el.textContent = translations[key];
             });
 
-            // Atualiza o título principal da navbar, se houver tradução
+            // Atualiza o título principal da navbar
             if (translations['map-title']) {
                 mapTitle.textContent = translations['map-title'];
             }
@@ -54,7 +62,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const response = await fetch(`/api/coordinates/${mapName}?lang=${lang}`);
         currentMap = await response.json();
 
-        // Atualiza o título com a tradução do nome do mapa
+        // Atualiza o título do mapa
         mapTitle.textContent = translations[currentMap.mapName] || currentMap.mapName;
 
         const bounds = [[0, 0], [currentMap.mapBounds[1][1], currentMap.mapBounds[1][0]]];
@@ -99,6 +107,8 @@ document.addEventListener('DOMContentLoaded', () => {
         const filtersContainer = document.getElementById('filters-container');
         filtersContainer.innerHTML = '';
 
+        toggleAll.checked = true; // Garante que comece selecionado
+
         categories.forEach(cat => {
             const div = document.createElement('div');
             div.className = 'form-check';
@@ -117,6 +127,13 @@ document.addEventListener('DOMContentLoaded', () => {
             div.appendChild(checkbox);
             div.appendChild(label);
             filtersContainer.appendChild(div);
+        });
+
+        // Adiciona funcionalidade ao botão "Selecionar Tudo"
+        toggleAll.addEventListener('change', (e) => {
+            const checked = e.target.checked;
+            document.querySelectorAll('.category-checkbox').forEach(cb => cb.checked = checked);
+            renderMarkers();
         });
     }
 
