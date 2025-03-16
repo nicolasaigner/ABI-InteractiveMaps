@@ -1,6 +1,6 @@
 {
     "mapImage": "farm.png",
-    "mapName": "Fazenda",
+    "mapName": "Farm",
     "pageCategories": [
         "Interactive_Maps"
     ],
@@ -1984,7 +1984,7 @@
                 867.75
             ],
             "popup": {
-                "title": "Abondoned Create",
+                "title": "Abandoned Create",
                 "description": "",
                 "link": {
                     "url": "",

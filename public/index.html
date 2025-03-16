@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="pt" data-bs-theme="dark">
+<html lang="pt-br" data-bs-theme="dark">
 <head>
     <meta charset="UTF-8">
-    <title>ABI - Interactive Maps</title>
+    <title>ABI - Mapas Interativos</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
     <style>
@@ -28,21 +28,29 @@
             justify-content: space-between;
             align-items: center;
         }
+        #language-selector {
+            width: 240px; /* Define um tamanho menor */
+            font-size: 14px;
+        }
     </style>
 </head>
 <body>
 <nav class="navbar navbar-expand navbar-dark bg-dark">
     <div class="container-fluid">
-        <button class="btn btn-outline-light" id="toggle-sidebar">☰ Filtros</button>
-        <span class="navbar-brand mx-auto">Arena Breakout Infinite - Interactive Maps</span>
+        <button class="btn btn-outline-light" id="toggle-sidebar">☰ <span data-i18n="filters">Filtros</span></button>
+        <span class="navbar-brand mx-auto" id="map-title">Arena Breakout Infinite - Mapas Interativos</span>
         <ul class="navbar-nav" id="maps-menu"></ul>
+        <select id="language-selector" class="form-select form-select-sm">
+            <option value="pt-br">Português Brasil</option>
+            <option value="en">English</option>
+        </select>
     </div>
 </nav>
 <div class="d-flex">
     <div id="sidebar" class="bg-dark p-3">
         <div class="form-check mb-2">
             <input id="toggle-all" type="checkbox" class="form-check-input" checked>
-            <label class="form-check-label" for="toggle-all">Selecionar Tudo</label>
+            <label class="form-check-label" for="toggle-all" data-i18n="select_all">Selecionar Tudo</label>
         </div>
         <div id="filters-container"></div>
     </div>

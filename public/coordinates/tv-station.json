@@ -1,6 +1,6 @@
 {
     "mapImage": "tv-station.png",
-    "mapName": "Estação de TV",
+    "mapName": "TV Station",
     "pageCategories": [
         "Maps"
     ],
@@ -23,7 +23,7 @@
         {
             "id": "1",
             "listId": 1,
-            "name": "Player Spawns",
+            "name": "Player Spawn",
             "color": "#FA005A",
             "symbol": "",
             "symbolColor": "",
@@ -2675,7 +2675,7 @@
                 740.0053236623544
             ],
             "popup": {
-                "title": "Player Spawns",
+                "title": "Player Spawn",
                 "description": "",
                 "link": {
                     "url": "",
@@ -2691,7 +2691,7 @@
                 1612.0150837100043
             ],
             "popup": {
-                "title": "Player Spawns",
+                "title": "Player Spawn",
                 "description": "",
                 "link": {
                     "url": "",
@@ -2707,7 +2707,7 @@
                 2724.3673479578647
             ],
             "popup": {
-                "title": "Player Spawns",
+                "title": "Player Spawn",
                 "description": "",
                 "link": {
                     "url": "",
@@ -2723,7 +2723,7 @@
                 3472.2670856501886
             ],
             "popup": {
-                "title": "Player Spawns",
+                "title": "Player Spawn",
                 "description": "",
                 "link": {
                     "url": "",
@@ -2739,7 +2739,7 @@
                 3424.277732974898
             ],
             "popup": {
-                "title": "Player Spawns",
+                "title": "Player Spawn",
                 "description": "",
                 "link": {
                     "url": "",
@@ -2755,7 +2755,7 @@
                 3264.395166098421
             ],
             "popup": {
-                "title": "Player Spawns",
+                "title": "Player Spawn",
                 "description": "",
                 "link": {
                     "url": "",
@@ -2771,7 +2771,7 @@
                 699.9911272294094
             ],
             "popup": {
-                "title": "Player Spawns",
+                "title": "Player Spawn",
                 "description": "",
                 "link": {
                     "url": "",
@@ -2787,7 +2787,7 @@
                 1578.9336747818122
             ],
             "popup": {
-                "title": "Player Spawns",
+                "title": "Player Spawn",
                 "description": "",
                 "link": {
                     "url": "",
@@ -2803,7 +2803,7 @@
                 1556.0053236623546
             ],
             "popup": {
-                "title": "Player Spawns",
+                "title": "Player Spawn",
                 "description": "",
                 "link": {
                     "url": "",
@@ -2819,7 +2819,7 @@
                 2076.023069203536
             ],
             "popup": {
-                "title": "Player Spawns",
+                "title": "Player Spawn",
                 "description": "",
                 "link": {
                     "url": "",
@@ -2835,7 +2835,7 @@
                 3348.2653110960705
             ],
             "popup": {
-                "title": "Player Spawns",
+                "title": "Player Spawn",
                 "description": "",
                 "link": {
                     "url": "",
@@ -2851,7 +2851,7 @@
                 3376.0159709870636
             ],
             "popup": {
-                "title": "Player Spawns",
+                "title": "Player Spawn",
                 "description": "",
                 "link": {
                     "url": "",
@@ -2867,7 +2867,7 @@
                 1708.0062109394134
             ],
             "popup": {
-                "title": "Player Spawns",
+                "title": "Player Spawn",
                 "description": "",
                 "link": {
                     "url": "",
@@ -2883,7 +2883,7 @@
                 896.851816487529
             ],
             "popup": {
-                "title": "Player Spawns",
+                "title": "Player Spawn",
                 "description": "",
                 "link": {
                     "url": "",
@@ -2899,7 +2899,7 @@
                 1456.3398423690335
             ],
             "popup": {
-                "title": "Player Spawns",
+                "title": "Player Spawn",
                 "description": "",
                 "link": {
                     "url": "",
@@ -2915,7 +2915,7 @@
                 2056.5877590858177
             ],
             "popup": {
-                "title": "Player Spawns",
+                "title": "Player Spawn",
                 "description": "",
                 "link": {
                     "url": "",

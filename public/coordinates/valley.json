@@ -1,6 +1,6 @@
 {
     "mapImage": "valley.png",
-    "mapName": "Vale",
+    "mapName": "Valley",
     "pageCategories": [
         "Maps"
     ],
@@ -68,7 +68,7 @@
         {
             "id": "2",
             "listId": 6,
-            "name": "Air Drop ",
+            "name": "Air Drop",
             "color": "#fa005a",
             "symbol": "",
             "symbolColor": "",
@@ -77,7 +77,7 @@
         {
             "id": "21",
             "listId": 7,
-            "name": "Sniper AI",
+            "name": "Scav Sniper",
             "color": "#fa005a",
             "symbol": "",
             "symbolColor": "",
@@ -254,7 +254,7 @@
                 468.01716806880194
             ],
             "popup": {
-                "title": " Safe",
+                "title": "Safe",
                 "description": "Second Floor",
                 "link": {
                     "url": "",
@@ -270,7 +270,7 @@
                 970.1498708307106
             ],
             "popup": {
-                "title": "Air Drop ",
+                "title": "Air Drop",
                 "description": "",
                 "link": {
                     "url": "",
@@ -366,7 +366,7 @@
                 1076.0034686547226
             ],
             "popup": {
-                "title": "Air Drop ",
+                "title": "Air Drop",
                 "description": "",
                 "link": {
                     "url": "",
@@ -1950,7 +1950,7 @@
                 1053.7658806632526
             ],
             "popup": {
-                "title": "Copmuter",
+                "title": "Computer",
                 "description": "Located behind Locked Door",
                 "link": {
                     "url": "",
@@ -2750,7 +2750,7 @@
                 462.88977663424373
             ],
             "popup": {
-                "title": "Buisness Suitcase",
+                "title": "Business Suitcase",
                 "description": "",
                 "link": {
                     "url": "",
