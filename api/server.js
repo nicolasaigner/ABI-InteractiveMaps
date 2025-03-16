@@ -23,6 +23,11 @@ app.get('/api/coordinates/:map', (req, res) => {
     res.sendFile(path.join(basePath, `coordinates/${req.params.map}.json`));
 });
 
+// 🔥 Esta parte corrige o problema do 404 na raiz ("/")
+app.get('*', (req, res) => {
+    res.sendFile(path.join(basePath, 'index.html'));
+});
+
 // Configuração para rodar localmente ou no Vercel
 const PORT = process.env.PORT || 3000;
 if (require.main === module) {
