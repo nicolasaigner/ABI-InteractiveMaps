@@ -6,7 +6,22 @@
     "start": "electron .",
     "dev": "node api/server.js",
     "start:electron": "electron main.js",
-    "build:electron": "electron-packager . InteractiveMaps --platform=win32 --arch=x64 --out=build --icon=icon.ico --overwrite"
+    "build": "electron-packager . InteractiveMaps --platform=win32 --arch=x64 --out=build --icon=icon.ico --overwrite",
+    "dist": "electron-builder"
+  },
+  "build": {
+    "appId": "com.interactivemaps.app",
+    "productName": "InteractiveMaps",
+    "copyright": "© 2024 InteractiveMaps",
+    "win": {
+      "target": "nsis",
+      "icon": "icon.ico"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "deleteAppDataOnUninstall": true
+    }
   },
   "keywords": [],
   "author": "",
@@ -19,6 +34,7 @@
     "express": "^4.21.2"
   },
   "devDependencies": {
-    "electron": "^35.0.2"
+    "electron": "^35.0.2",
+    "electron-builder": "^25.1.8"
   }
 }
