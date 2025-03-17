@@ -6,6 +6,13 @@ document.addEventListener('DOMContentLoaded', () => {
     const toggleSidebar = document.getElementById('toggle-sidebar');
     const toggleAllCheckbox = document.getElementById('toggle-all');
 
+    // 🔹 Recuperar o estado salvo no localStorage
+    let lastSelectedMap = localStorage.getItem('lastSelectedMap') || null;
+    let savedFilters = JSON.parse(localStorage.getItem('selectedFilters')) || {};
+    let savedLanguage = localStorage.getItem('selectedLanguage') || 'en'; // 🔹 Salva o idioma
+
+    languageSelector.value = savedLanguage; // 🔹 Define o idioma salvo no dropdown
+
     async function loadTranslations(lang) {
         try {
             const response = await fetch(`/api/locales/${lang}.json`);
@@ -55,13 +62,19 @@ document.addEventListener('DOMContentLoaded', () => {
             navLink.className = 'nav-link';
             navLink.href = '#';
             navLink.textContent = translations[map.mapName] || map.mapName;
-            navLink.addEventListener('click', () => loadMap(map.id));
+            navLink.addEventListener('click', () => {
+                localStorage.setItem('lastSelectedMap', map.id); // 🔹 Salvar último mapa acessado
+                loadMap(map.id);
+            });
 
             navItem.appendChild(navLink);
             mapsMenu.appendChild(navItem);
         });
 
-        if (maps[0]?.id) {
+        // 🔹 Se havia um mapa salvo, carregá-lo
+        if (lastSelectedMap && maps.some(m => m.id === lastSelectedMap)) {
+            await loadMap(lastSelectedMap);
+        } else if (maps[0]?.id) {
             await loadMap(maps[0].id);
         } else {
             console.error("Erro: Nenhum mapa possui ID válido.");
@@ -98,7 +111,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
         markersLayer = L.layerGroup().addTo(map);
 
-        // Chama a função corrigida para criar os filtros e renderizar os ícones
         createCategoryFilters(currentMap.categories);
         renderMarkers();
     }
@@ -120,8 +132,12 @@ document.addEventListener('DOMContentLoaded', () => {
             checkbox.type = 'checkbox';
             checkbox.className = 'form-check-input category-checkbox';
             checkbox.value = cat.id;
-            checkbox.checked = true;
-            checkbox.addEventListener('change', renderMarkers);
+            checkbox.checked = savedFilters[cat.id] !== false; // 🔹 Recupera o estado do filtro
+            checkbox.addEventListener('change', () => {
+                savedFilters[cat.id] = checkbox.checked;
+                localStorage.setItem('selectedFilters', JSON.stringify(savedFilters)); // 🔹 Salva os filtros
+                renderMarkers();
+            });
 
             const label = document.createElement('label');
             label.className = 'form-check-label';
@@ -132,10 +148,13 @@ document.addEventListener('DOMContentLoaded', () => {
             filtersContainer.appendChild(div);
         });
 
-        // Configuração do botão "Selecionar Tudo"
         toggleAllCheckbox.addEventListener('change', () => {
             const checked = toggleAllCheckbox.checked;
-            document.querySelectorAll('.category-checkbox').forEach(cb => cb.checked = checked);
+            document.querySelectorAll('.category-checkbox').forEach(cb => {
+                cb.checked = checked;
+                savedFilters[cb.value] = checked;
+            });
+            localStorage.setItem('selectedFilters', JSON.stringify(savedFilters));
             renderMarkers();
         });
     }
@@ -177,11 +196,15 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // Botão de toggle do sidebar
     toggleSidebar.onclick = () => {
         sidebar.classList.toggle('collapsed');
     };
 
-    languageSelector.addEventListener('change', fetchMaps);
+    // 🔹 Salvar idioma ao mudar
+    languageSelector.addEventListener('change', () => {
+        localStorage.setItem('selectedLanguage', languageSelector.value);
+        fetchMaps();
+    });
+
     fetchMaps();
 });
