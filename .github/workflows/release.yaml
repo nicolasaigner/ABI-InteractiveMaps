@@ -4,6 +4,8 @@ on:
   push:
     tags:
       - "v*"
+    branches:
+      - feature/electron
 
 jobs:
   release:
@@ -22,6 +24,8 @@ jobs:
         run: npm install
 
       - name: Construir o instalador do Electron
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: npm run dist
 
       - name: Criar Release no GitHub
@@ -29,4 +33,4 @@ jobs:
         with:
           files: dist/*.exe
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
