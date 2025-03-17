@@ -1,7 +1,11 @@
-const express = require('express');
-const cors = require('cors');
-const path = require('path');
-const fs = require('fs');
+import express from 'express';
+import cors from 'cors';
+import path from 'path';
+import fs from 'fs';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const app = express();
 const PORT = process.env.PORT || 4000;
@@ -75,10 +79,23 @@ app.get('*', (req, res) => {
     res.sendFile(path.join(__dirname, '../public/index.html'));
 });
 
-// 🔹 INICIA O SERVIDOR
-// app.listen(PORT, () => {
-//     console.log(`Servidor rodando em http://localhost:${PORT}`);
-// });
+// 🔹 Função para iniciar o servidor somente quando necessário
+function startServer() {
+    return new Promise((resolve, reject) => {
+        const server = app.listen(PORT, () => {
+            console.log(`🔹 Servidor rodando na porta ${PORT}`);
+            resolve(server);
+        });
 
-// 🔹 EXPORTAÇÃO PARA O VERCEL ENTENDER
-module.exports = app;
+        server.on('error', (err) => {
+            if (err.code === 'EADDRINUSE') {
+                console.warn(`⚠️ Porta ${PORT} já está em uso. Usando servidor existente.`);
+                resolve(null);
+            } else {
+                reject(err);
+            }
+        });
+    });
+}
+
+export { app, startServer };

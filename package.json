@@ -1,18 +1,24 @@
 {
   "name": "interactivemaps",
   "version": "1.0.0",
-  "main": "api/server.js",
+  "main": "main.js",
   "scripts": {
-    "start": "node api/server.js",
-    "dev": "node api/server.js"
+    "start": "electron .",
+    "dev": "node api/server.js",
+    "start:electron": "electron main.js",
+    "build:electron": "electron-packager . InteractiveMaps --platform=win32 --arch=x64 --out=build --icon=icon.ico --overwrite"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "description": "",
   "dependencies": {
     "cors": "^2.8.5",
+    "electron-store": "^10.0.1",
     "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "electron": "^35.0.2"
   }
 }
