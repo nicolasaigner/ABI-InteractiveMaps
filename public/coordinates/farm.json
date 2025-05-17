@@ -48,7 +48,7 @@
             "icon": "File:Extracticon.png"
         },
         {
-            "id": "20",
+            "id": "3",
             "listId": 4,
             "name": "Key Rooms",
             "color": "#fa005a",
@@ -138,7 +138,7 @@
             "icon": "File:Toolboxico.png"
         },
         {
-            "id": "3",
+            "id": "20",
             "listId": 14,
             "name": "Ammo Box",
             "color": "#fa005a",
@@ -262,7 +262,7 @@
             "id": "3"
         },
         {
-            "categoryId": "3",
+            "categoryId": "20",
             "position": [
                 374.5,
                 459.375
@@ -278,7 +278,7 @@
             "id": "4"
         },
         {
-            "categoryId": "3",
+            "categoryId": "20",
             "position": [
                 375.5625,
                 457.5625
@@ -712,7 +712,7 @@
             "id": "32"
         },
         {
-            "categoryId": "3",
+            "categoryId": "20",
             "position": [
                 855,
                 384.5
@@ -1995,7 +1995,7 @@
             "id": "118"
         },
         {
-            "categoryId": "3",
+            "categoryId": "20",
             "position": [
                 1051,
                 908.25
@@ -2221,7 +2221,7 @@
             "id": "134"
         },
         {
-            "categoryId": "3",
+            "categoryId": "20",
             "position": [
                 1322.5,
                 735.875
@@ -2567,13 +2567,13 @@
             "id": "156"
         },
         {
-            "categoryId": "20",
+            "categoryId": "3",
             "position": [
                 1340,
                 539.5
             ],
             "popup": {
-                "title": "Master Bedroom",
+                "title": "Master BedRoom",
                 "description": "Second Floor",
                 "link": {
                     "url": "",
@@ -2583,7 +2583,7 @@
             "id": "157"
         },
         {
-            "categoryId": "20",
+            "categoryId": "3",
             "position": [
                 710.625,
                 735.875
@@ -2600,7 +2600,7 @@
             "id": "158"
         },
         {
-            "categoryId": "20",
+            "categoryId": "3",
             "position": [
                 874,
                 442
@@ -2617,7 +2617,7 @@
             "id": "159"
         },
         {
-            "categoryId": "20",
+            "categoryId": "3",
             "position": [
                 811.875,
                 432
@@ -2629,12 +2629,12 @@
                     "url": "",
                     "label": ""
                 },
-                "image": "File:Imagejkk.png"
+                "image": "File:Keysico.png"
             },
             "id": "160"
         },
         {
-            "categoryId": "20",
+            "categoryId": "3",
             "position": [
                 841.28125,
                 639
@@ -2651,7 +2651,7 @@
             "id": "161"
         },
         {
-            "categoryId": "20",
+            "categoryId": "3",
             "position": [
                 1320.5,
                 731.625
@@ -2667,7 +2667,7 @@
             "id": "162"
         },
         {
-            "categoryId": "20",
+            "categoryId": "3",
             "position": [
                 1559.125,
                 739.375
@@ -2684,7 +2684,7 @@
             "id": "163"
         },
         {
-            "categoryId": "20",
+            "categoryId": "3",
             "position": [
                 371.70813704603694,
                 420.8435459273197
@@ -2700,7 +2700,7 @@
             "id": "164"
         },
         {
-            "categoryId": "20",
+            "categoryId": "3",
             "position": [
                 564.125,
                 338.25
@@ -2783,7 +2783,7 @@
             "id": "170"
         },
         {
-            "categoryId": "3",
+            "categoryId": "20",
             "position": [
                 888.3785626844476,
                 330.35386507067614
@@ -2880,7 +2880,7 @@
             "id": "177"
         },
         {
-            "categoryId": "3",
+            "categoryId": "20",
             "position": [
                 1128.1888693831368,
                 896.788175239839
