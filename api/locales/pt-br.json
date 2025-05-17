@@ -113,8 +113,10 @@
   "Factory Drain Passage": "Passagem de Drenagem da Fábrica",
   "Computer": "Computador",
   "Courtyard Basement Key": "Chave do Porão do Pátio",
+  "Courtyard Basement": "Porão do Pátio",
   "First Aid Case": "Mala de Primeiros Socorros",
   "Valley Village Office Key": "Chave do Escritório da Vila do Vale",
+  "Valley Village Office": "Escritório da Vila do Vale",
   "Abandoned Shack Key": "Chave da Cabana Abandonada",
   "Airdrop": "Lançamento Aéreo",
   "Working Clothes": "Roupas de Trabalho",
@@ -122,6 +124,7 @@
   "Boat": "Barco",
   "Radar Station Security Room": "Sala de Segurança da Estação de Radar",
   "RV Camp cabin cafeteria Key": "Chave da Cabana do Acampamento RV",
+  "RV Camp cabin cafeteria": "Cabana do Acampamento RV",
   "Abandoned Shack": "Cabana Abandonada",
   "Abandoned RV": "RV Abandonado",
   "Helipad": "Heliponto",
@@ -180,5 +183,7 @@
   "On the Guard Tower": "Na Torre de Guarda",
   "Second Floor in the Office": "Segundo Andar no Escritório",
   "Underground": "Subterrâneo",
-  "Lockdown": "Bloqueio"
+  "Lockdown": "Bloqueio",
+  "my_keys_inventory": "Selecione as chaves",
+  "my_keys": "Marcar as minhas chaves"
 }
