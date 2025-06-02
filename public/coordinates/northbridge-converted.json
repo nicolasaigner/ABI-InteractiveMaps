@@ -1,0 +1,1849 @@
+{
+    "mapImage": "Northridge.webp",
+    "mapName": "Northridge",
+    "pageCategories": [
+        "Maps"
+    ],
+    "defaultSort": "",
+    "description": "{{NorthridgeMapDesc}}",
+    "coordinateOrder": "xy",
+    "mapBounds": [
+        [
+            0,
+            0
+        ],
+        [
+            1752,
+            1131
+        ]
+    ],
+    "origin": "bottom-left",
+    "useMarkerClustering": false,
+    "categories": [
+        {
+            "id": "1",
+            "listId": 1,
+            "name": "Player Spawn",
+            "color": "#FA005A",
+            "symbol": "",
+            "symbolColor": "",
+            "icon": "File:Spawnicon.png"
+        },
+        {
+            "id": "2",
+            "listId": 2,
+            "name": "Extraction Point",
+            "color": "#FFC500",
+            "symbol": "",
+            "symbolColor": "",
+            "icon": "File:Extracticon.png"
+        },
+        {
+            "id": "3",
+            "listId": 3,
+            "name": "Key Rooms",
+            "color": "#fa005a",
+            "symbol": "",
+            "symbolColor": "",
+            "icon": "File:Keysico.png"
+        },
+        {
+            "id": "4",
+            "listId": 4,
+            "name": "Safe",
+            "color": "#fa005a",
+            "symbol": "",
+            "symbolColor": "",
+            "icon": "File:Safeico.png"
+        },
+        {
+            "id": "5",
+            "listId": 5,
+            "name": "Military Supply Crate",
+            "color": "#fa005a",
+            "symbol": "",
+            "symbolColor": "",
+            "icon": "File:Mstoragecase.png"
+        },
+        {
+            "id": "6",
+            "listId": 6,
+            "name": "Weapon Box",
+            "color": "#fa005a",
+            "symbol": "",
+            "symbolColor": "",
+            "icon": "File:Weaponboxico.png"
+        },
+        {
+            "id": "7",
+            "listId": 7,
+            "name": "Document Case",
+            "color": "#fa005a",
+            "symbol": "",
+            "symbolColor": "",
+            "icon": "File:Documentcaseico.png"
+        },
+        {
+            "id": "8",
+            "listId": 8,
+            "name": "Filing Cabinet",
+            "color": "#fa005a",
+            "symbol": "",
+            "symbolColor": "",
+            "icon": "File:Filingcabinetico.png"
+        },
+        {
+            "id": "9",
+            "listId": 9,
+            "name": "Storage Case",
+            "color": "#fa005a",
+            "symbol": "",
+            "symbolColor": "",
+            "icon": "File:Storagecase.png"
+        },
+        {
+            "id": "10",
+            "listId": 10,
+            "name": "Computer",
+            "color": "#fa005a",
+            "symbol": "",
+            "symbolColor": "",
+            "icon": "File:Computerico.png"
+        },
+        {
+            "id": "11",
+            "listId": 11,
+            "name": "Toolbox",
+            "color": "#fa005a",
+            "symbol": "",
+            "symbolColor": "",
+            "icon": "File:Toolboxico.png"
+        },
+        {
+            "id": "12",
+            "listId": 12,
+            "name": "Ammo Box",
+            "color": "#fa005a",
+            "symbol": "",
+            "symbolColor": "",
+            "icon": "File:Ammoboxico.png"
+        },
+        {
+            "id": "13",
+            "listId": 13,
+            "name": "Grenade Box",
+            "color": "#fa005a",
+            "symbol": "",
+            "symbolColor": "",
+            "icon": "File:Grenadeboxico.png"
+        },
+        {
+            "id": "14",
+            "listId": 14,
+            "name": "Duffle Bag",
+            "color": "#fa005a",
+            "symbol": "",
+            "symbolColor": "",
+            "icon": "File:Dufflebagico.png"
+        },
+        {
+            "id": "16",
+            "listId": 15,
+            "name": "Jacket",
+            "color": "#fa005a",
+            "symbol": "",
+            "symbolColor": "",
+            "icon": "File:Jacketico.png"
+        },
+        {
+            "id": "17",
+            "listId": 16,
+            "name": "Suitcase",
+            "color": "#fa005a",
+            "symbol": "",
+            "symbolColor": "",
+            "icon": "File:Suitcaseico.png"
+        },
+        {
+            "id": "18",
+            "listId": 17,
+            "name": "Medical",
+            "color": "#fa005a",
+            "symbol": "",
+            "symbolColor": "",
+            "icon": "File:Medicalico.png"
+        },
+        {
+            "id": "19",
+            "listId": 18,
+            "name": "Cash Register",
+            "color": "#fa005a",
+            "symbol": "",
+            "symbolColor": "",
+            "icon": "File:Cashierico.png"
+        },
+        {
+            "id": "20",
+            "listId": 19,
+            "name": "Switch",
+            "color": "#fa005a",
+            "symbol": "",
+            "symbolColor": "",
+            "icon": "File:ArmoryLever2.png"
+        },
+        {
+            "id": "21",
+            "listId": 21,
+            "name": "Airdrop",
+            "color": "#fa005a",
+            "symbol": "",
+            "symbolColor": "",
+            "icon": "File:airdrop.png"
+        }
+    ],
+    "markers": [
+        {
+            "categoryId": "21",
+            "position": [
+                84.07257080078132,
+                462.00262451171875
+            ],
+            "popup": {
+                "title": "Airdrop",
+                "description": "Airdrops are usually found in somewhat hidden locations and usually contain really valuable loot. You can easily tell if they've been looted from a distance.",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "1",
+            "config": {
+                "openPopupsOnHover": "false",
+                "enableFullscreen": "true",
+                "fullscreenMode": "window",
+                "enableSearch": "true",
+                "sidebarInitialState": "hide",
+                "enableSidebar": "true",
+                "sidebarOverlay": "true",
+                "useCustomPopups": "true",
+                "enableTooltips": "true"
+            }
+        },
+        {
+            "categoryId": "21",
+            "position": [
+                516.5725708007812,
+                821.5026245117188
+            ],
+            "popup": {
+                "title": "Airdrop",
+                "description": "Airdrops are usually found in somewhat hidden locations and usually contain really valuable loot. You can easily tell if they've been looted from a distance.",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "2"
+        },
+        {
+            "categoryId": "21",
+            "position": [
+                1280.572570800781,
+                541.0026245117186
+            ],
+            "popup": {
+                "title": "Airdrop",
+                "description": "Airdrops are usually found in somewhat hidden locations and usually contain really valuable loot. You can easily tell if they've been looted from a distance.",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "3"
+        },
+        {
+            "categoryId": "1",
+            "position": [
+                84.57257080078146,
+                564.5026245117185
+            ],
+            "popup": {
+                "title": "Spawn Area",
+                "description": "Spawn Area",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "4"
+        },
+        {
+            "categoryId": "1",
+            "position": [
+                245.0725708007812,
+                713.5026245117185
+            ],
+            "popup": {
+                "title": "Spawn Area",
+                "description": "Spawn Area",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "5"
+        },
+        {
+            "categoryId": "1",
+            "position": [
+                696.0725708007814,
+                356.00262451171864
+            ],
+            "popup": {
+                "title": "Spawn Area",
+                "description": "Spawn Area",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "6"
+        },
+        {
+            "categoryId": "1",
+            "position": [
+                490.0725708007814,
+                138.50262451171886
+            ],
+            "popup": {
+                "title": "Spawn Area",
+                "description": "Spawn Area",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "7"
+        },
+        {
+            "categoryId": "1",
+            "position": [
+                552.0725708007814,
+                972.0026245117185
+            ],
+            "popup": {
+                "title": "Spawn Area",
+                "description": "Spawn Area",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "8"
+        },
+        {
+            "categoryId": "1",
+            "position": [
+                679.5725708007812,
+                679.5026245117185
+            ],
+            "popup": {
+                "title": "Spawn Area",
+                "description": "Spawn Area",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "9"
+        },
+        {
+            "categoryId": "1",
+            "position": [
+                730.0725708007812,
+                923.5026245117186
+            ],
+            "popup": {
+                "title": "Spawn Area",
+                "description": "Spawn Area",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "10"
+        },
+        {
+            "categoryId": "1",
+            "position": [
+                1065.0725708007815,
+                643.0026245117186
+            ],
+            "popup": {
+                "title": "Spawn Area",
+                "description": "Spawn Area",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "11"
+        },
+        {
+            "categoryId": "1",
+            "position": [
+                1221.5725708007815,
+                799.0026245117188
+            ],
+            "popup": {
+                "title": "Spawn Area",
+                "description": "Spawn Area",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "12"
+        },
+        {
+            "categoryId": "1",
+            "position": [
+                1621.5725708007812,
+                677.0026245117186
+            ],
+            "popup": {
+                "title": "Spawn Area",
+                "description": "Spawn Area",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "13"
+        },
+        {
+            "categoryId": "1",
+            "position": [
+                1524.5725708007815,
+                413.50262451171864
+            ],
+            "popup": {
+                "title": "Spawn Area",
+                "description": "Spawn Area",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "14"
+        },
+        {
+            "categoryId": "1",
+            "position": [
+                1361.0725708007815,
+                179.00262451171875
+            ],
+            "popup": {
+                "title": "Spawn Area",
+                "description": "Spawn Area",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "15"
+        },
+        {
+            "categoryId": "2",
+            "position": [
+                38.57257080078125,
+                454.50262451171875
+            ],
+            "popup": {
+                "title": "Bus Terminal",
+                "description": "Always available and open (if spawned on opposite side of map).",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "16"
+        },
+        {
+            "categoryId": "2",
+            "position": [
+                58.57257080078118,
+                659.0026245117188
+            ],
+            "popup": {
+                "title": "Path to Onotos Mountains",
+                "description": "Always available and open (if spawned on opposite side of map).",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "17"
+        },
+        {
+            "categoryId": "2",
+            "position": [
+                914.5725708007811,
+                1078.5026245117188
+            ],
+            "popup": {
+                "title": "Cable Car Station Extract",
+                "description": "Use the Cable Car Switch to call a cable car. Pay 7,500 Koen to activate the Extraction Point. Stand in either cable car to start extraction.",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "18"
+        },
+        {
+            "categoryId": "2",
+            "position": [
+                742.5725708007812,
+                903.5026245117186
+            ],
+            "popup": {
+                "title": "Parking Lot",
+                "description": "Active 25min after the raid starts. Only available sometimes.",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "19"
+        },
+        {
+            "categoryId": "2",
+            "position": [
+                893.5725708007811,
+                661.0026245117188
+            ],
+            "popup": {
+                "title": "Dam Sluice Gate",
+                "description": "Open the sluice from the 407 control panellocated on the second floor of the dam to start the 90s countdown for the first-floor Extraction Point.",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "20"
+        },
+        {
+            "categoryId": "2",
+            "position": [
+                1078.5725708007812,
+                504.00262451171875
+            ],
+            "popup": {
+                "title": "Access Bridge",
+                "description": "Active 25 min after the raid starts.",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "21"
+        },
+        {
+            "categoryId": "2",
+            "position": [
+                1163.5725708007815,
+                421.00262451171886
+            ],
+            "popup": {
+                "title": "Lifeboat",
+                "description": "Use the lifeboat key to turn on the engine. 50s to activation.",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "22"
+        },
+        {
+            "categoryId": "2",
+            "position": [
+                943.5725708007814,
+                223.50262451171864
+            ],
+            "popup": {
+                "title": "Armored Vehicle",
+                "description": "Deliver 2 dog tags and get 60s to extract using the Armored Vehicle Extraction Point.",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "23"
+        },
+        {
+            "categoryId": "2",
+            "position": [
+                1606.5725097656255,
+                816.5026245117188
+            ],
+            "popup": {
+                "title": "Eastern Bridge",
+                "description": "Always available and open (if spawned on opposite side of the map).",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "24"
+        },
+        {
+            "categoryId": "2",
+            "position": [
+                1698.5725097656252,
+                586.0026245117189
+            ],
+            "popup": {
+                "title": "Village End",
+                "description": "Always available and open (if spawned on opposite side of the map).",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "25"
+        },
+        {
+            "categoryId": "4",
+            "position": [
+                483.07257080078125,
+                880.0026245117188
+            ],
+            "popup": {
+                "title": "Communication Station Safe",
+                "description": "Electronic Safe located on the first floor on top of a desk (20 second timer).",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "26"
+        },
+        {
+            "categoryId": "4",
+            "position": [
+                921.5725708007811,
+                999.5026245117186
+            ],
+            "popup": {
+                "title": "First Floor Cable Car Station Safe",
+                "description": "Electronic Safe located on the first floor near the center of the room (20 second timer).",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "27"
+        },
+        {
+            "categoryId": "4",
+            "position": [
+                1333.572570800781,
+                599.0026245117185
+            ],
+            "popup": {
+                "title": "Sewage Plant Safe",
+                "description": "Electronic Safe located on the second floor of the main building in the Sewage Plant area (20-second timer).",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "28"
+        },
+        {
+            "categoryId": "4",
+            "position": [
+                1305.072570800781,
+                393.00262451171864
+            ],
+            "popup": {
+                "title": "Sawmill Safe",
+                "description": "Electronic Safe located on the in a warehouse behind a wood pile (20 second timer).",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "29"
+        },
+        {
+            "categoryId": "4",
+            "position": [
+                1063.5725708007812,
+                501.0026245117185
+            ],
+            "popup": {
+                "title": "Access Bridge Safe",
+                "description": "Electronic Safe located on the bridge [only appears sometimes] (20 second timer).",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "30"
+        },
+        {
+            "categoryId": "4",
+            "position": [
+                895.0725708007812,
+                262.0026245117185
+            ],
+            "popup": {
+                "title": "Third Floor Building C Safe",
+                "description": "Electronic Safe located on the third floor right inside a corner office (20 second timer).",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "31"
+        },
+        {
+            "categoryId": "4",
+            "position": [
+                485.57257080078125,
+                388.50262451171875
+            ],
+            "popup": {
+                "title": "Third Floor Camp Services Safe",
+                "description": "Electronic Safe located on the third floor on top of a desk (20 second timer).",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "32"
+        },
+        {
+            "categoryId": "3",
+            "position": [
+                915.5725708007811,
+                273.50262451171864
+            ],
+            "popup": {
+                "title": "Building C Storage Room Key",
+                "description": "Key to the storage room on the third floor of Northridge Hotel Building C. It is currently used as a temporary armory and may contain crucial military supplies.",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "33"
+        },
+        {
+            "categoryId": "3",
+            "position": [
+                881.3225708007812,
+                281.00262451171864
+            ],
+            "popup": {
+                "title": "Building C Lounge 1 Key",
+                "description": "Key to Building C Lounge 1 on the third floor of Northridge Hotel Building C. It is currently being used as a temporary server room and holds a lot of valuable electronic equipment.",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "34"
+        },
+        {
+            "categoryId": "3",
+            "position": [
+                873.3225708007812,
+                265.25262451171875
+            ],
+            "popup": {
+                "title": "Building C Lounge Private Room Key",
+                "description": "Key to the private lounge in VIP lounge 2 on the third floor of Northridge Hotel Building C. The room may hold a lot of valuable personal items.",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "35"
+        },
+        {
+            "categoryId": "3",
+            "position": [
+                1006.3225708007811,
+                263.25262451171875
+            ],
+            "popup": {
+                "title": "Building D Projection Room Key",
+                "description": "Key to the cinema on the second floor of Northridge Hotel Building D. There may be interesting items there.",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "36"
+        },
+        {
+            "categoryId": "3",
+            "position": [
+                972.3225708007812,
+                267.75262451171864
+            ],
+            "popup": {
+                "title": "D202 Key",
+                "description": "Key to room 202 on the second floor of Northridge Hotel Building D. It is currently being used as an armory. There may be rare military supplies there.",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "37"
+        },
+        {
+            "categoryId": "3",
+            "position": [
+                953.5725708007811,
+                266.75262451171875
+            ],
+            "popup": {
+                "title": "D208 Key",
+                "description": "Key to room 208 on the second floor of Northridge Hotel Building D. The room is currently being used as an office and mey hold electronics equipment.",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "38"
+        },
+        {
+            "categoryId": "3",
+            "position": [
+                975.3225708007814,
+                332.50262451171886
+            ],
+            "popup": {
+                "title": "A207 Key",
+                "description": "A key for hotel room 207 on the second floor of Northridge Hotel Building A, currently being used as an armory.",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "39"
+        },
+        {
+            "categoryId": "3",
+            "position": [
+                892.0725708007811,
+                338.75262451171875
+            ],
+            "popup": {
+                "title": "Building B Reception Room Key",
+                "description": "Key to the reception room on the second floor of Northridge Hotel Building B. The room holds a lot of valuable items.",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "40"
+        },
+        {
+            "categoryId": "3",
+            "position": [
+                894.3225708007812,
+                320.50262451171864
+            ],
+            "popup": {
+                "title": "B203 Key",
+                "description": "A key to room 203 on the second floor of Northridge Hotel Building B. The room is currently being used as an office. There might be some office items inside.",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "41"
+        },
+        {
+            "categoryId": "3",
+            "position": [
+                880.0725708007814,
+                329.25262451171875
+            ],
+            "popup": {
+                "title": "Building B Manager's Office Key",
+                "description": "Key to the hotel manager's room in the Office on the first floor of Northridge Hotel Building B. There might be some valuable items inside.",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "42"
+        },
+        {
+            "categoryId": "3",
+            "position": [
+                889.3227198593574,
+                262.25441119140214
+            ],
+            "popup": {
+                "title": "C115 Key",
+                "description": "Key to room 115 on the first floor of Northridge hotel Building C. It is currently being used as a power storage room.",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "43"
+        },
+        {
+            "categoryId": "3",
+            "position": [
+                1590.572570800781,
+                660.5026245117188
+            ],
+            "popup": {
+                "title": "N. Village House Key",
+                "description": "Key to a house in Northridge N. Village",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "44"
+        },
+        {
+            "categoryId": "3",
+            "position": [
+                1342.072570800781,
+                583.0026245117188
+            ],
+            "popup": {
+                "title": "Sewage Plant Workshop Key",
+                "description": "Key to the Workshop on the first floor of Sewage Plant Work Area 1 in Northridge. There are some workbenches inside.",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "45"
+        },
+        {
+            "categoryId": "3",
+            "position": [
+                857.5725708007812,
+                1012.0026245117185
+            ],
+            "popup": {
+                "title": "Cafeteria Cashier's Office Key",
+                "description": "Key to the Cashier's Office in the Observation Deck Cafeteria. Several valuables are inside.",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "46"
+        },
+        {
+            "categoryId": "3",
+            "position": [
+                419.0725708007813,
+                396.5026245117185
+            ],
+            "popup": {
+                "title": "Cafeteria Storage Room Key",
+                "description": "This key opens the Cafeteria Storage in the Camp Service Center.",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "47"
+        },
+        {
+            "categoryId": "3",
+            "position": [
+                483.57257080078125,
+                379.00262451171875
+            ],
+            "popup": {
+                "title": "Service Area Manager's Office Key",
+                "description": "This is the key to the Manager's Office on the second floor of the Northridge Service Area. There are valuables inside.",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "48"
+        },
+        {
+            "categoryId": "3",
+            "position": [
+                1156.5725708007812,
+                447.50262451171875
+            ],
+            "popup": {
+                "title": "Lifeboat Key",
+                "description": "Key to the Lifeboat on Northridge Lake",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "49"
+        },
+        {
+            "categoryId": "10",
+            "position": [
+                907.8225708007811,
+                1056.7526245117188
+            ],
+            "popup": {
+                "title": "Computer",
+                "description": "This category has Military and normal computers as one. Loot usually consists of cheaper wires and related items, but can be very profitable if you manage to find a GPU or similar item.",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "50"
+        },
+        {
+            "categoryId": "10",
+            "position": [
+                896.3225708007811,
+                1059.0026245117185
+            ],
+            "popup": {
+                "title": "Computer",
+                "description": "This category has Military and normal computers as one. Loot usually consists of cheaper wires and related items, but can be very profitable if you manage to find a GPU or similar item.",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "51"
+        },
+        {
+            "categoryId": "10",
+            "position": [
+                885.5725708007814,
+                1017.7526245117188
+            ],
+            "popup": {
+                "title": "Computer",
+                "description": "This category has Military and normal computers as one. Loot usually consists of cheaper wires and related items, but can be very profitable if you manage to find a GPU or similar item.",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "52"
+        },
+        {
+            "categoryId": "10",
+            "position": [
+                888.0725708007812,
+                1029.5026245117188
+            ],
+            "popup": {
+                "title": "Computer",
+                "description": "This category has Military and normal computers as one. Loot usually consists of cheaper wires and related items, but can be very profitable if you manage to find a GPU or similar item.",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "53"
+        },
+        {
+            "categoryId": "10",
+            "position": [
+                476.82257080078125,
+                386.50262451171864
+            ],
+            "popup": {
+                "title": "Computer",
+                "description": "This category has Military and normal computers as one. Loot usually consists of cheaper wires and related items, but can be very profitable if you manage to find a GPU or similar item.",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "54"
+        },
+        {
+            "categoryId": "10",
+            "position": [
+                897.5725708007812,
+                281.00262451171864
+            ],
+            "popup": {
+                "title": "Computer",
+                "description": "This category has Military and normal computers as one. Loot usually consists of cheaper wires and related items, but can be very profitable if you manage to find a GPU or similar item.",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "55"
+        },
+        {
+            "categoryId": "10",
+            "position": [
+                877.3225708007812,
+                320.00262451171864
+            ],
+            "popup": {
+                "title": "Computer",
+                "description": "This category has Military and normal computers as one. Loot usually consists of cheaper wires and related items, but can be very profitable if you manage to find a GPU or similar item.",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "56"
+        },
+        {
+            "categoryId": "10",
+            "position": [
+                952.5725708007811,
+                261.75262451171864
+            ],
+            "popup": {
+                "title": "Computer",
+                "description": "This category has Military and normal computers as one. Loot usually consists of cheaper wires and related items, but can be very profitable if you manage to find a GPU or similar item.",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "57"
+        },
+        {
+            "categoryId": "10",
+            "position": [
+                894.3225708007812,
+                302.00262451171875
+            ],
+            "popup": {
+                "title": "Computer",
+                "description": "This category has Military and normal computers as one. Loot usually consists of cheaper wires and related items, but can be very profitable if you manage to find a GPU or similar item.",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "58"
+        },
+        {
+            "categoryId": "10",
+            "position": [
+                909.5725708007814,
+                261.00262451171875
+            ],
+            "popup": {
+                "title": "Computer",
+                "description": "This category has Military and normal computers as one. Loot usually consists of cheaper wires and related items, but can be very profitable if you manage to find a GPU or similar item.",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "59"
+        },
+        {
+            "categoryId": "10",
+            "position": [
+                904.5725708007811,
+                264.25262451171875
+            ],
+            "popup": {
+                "title": "Computer",
+                "description": "This category has Military and normal computers as one. Loot usually consists of cheaper wires and related items, but can be very profitable if you manage to find a GPU or similar item.",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "60"
+        },
+        {
+            "categoryId": "12",
+            "position": [
+                897.2408447265623,
+                285.5844726562501
+            ],
+            "popup": {
+                "title": "Ammo Box",
+                "description": "Often contains valuable ammo, on all tiers of raids (relative to that raid).",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "61"
+        },
+        {
+            "categoryId": "12",
+            "position": [
+                959.7408447265623,
+                350.3344726562501
+            ],
+            "popup": {
+                "title": "Ammo Box",
+                "description": "Often contains valuable ammo, on all tiers of raids (relative to that raid).",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "62"
+        },
+        {
+            "categoryId": "12",
+            "position": [
+                716.7408447265625,
+                739.58447265625
+            ],
+            "popup": {
+                "title": "Ammo Box",
+                "description": "Often contains valuable ammo, on all tiers of raids (relative to that raid).",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "63"
+        },
+        {
+            "categoryId": "12",
+            "position": [
+                495.4908447265624,
+                882.83447265625
+            ],
+            "popup": {
+                "title": "Ammo Box",
+                "description": "Often contains valuable ammo, on all tiers of raids (relative to that raid).",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "64"
+        },
+        {
+            "categoryId": "12",
+            "position": [
+                407.2408447265625,
+                570.8344726562499
+            ],
+            "popup": {
+                "title": "Ammo Box",
+                "description": "Often contains valuable ammo, on all tiers of raids (relative to that raid).",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "65"
+        },
+        {
+            "categoryId": "12",
+            "position": [
+                538.7408447265625,
+                201.8344726562501
+            ],
+            "popup": {
+                "title": "Ammo Box",
+                "description": "Often contains valuable ammo, on all tiers of raids (relative to that raid).",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "66"
+        },
+        {
+            "categoryId": "12",
+            "position": [
+                879.9908447265626,
+                309.3344726562501
+            ],
+            "popup": {
+                "title": "Ammo Box",
+                "description": "Often contains valuable ammo, on all tiers of raids (relative to that raid).",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "67"
+        },
+        {
+            "categoryId": "12",
+            "position": [
+                877.4907144286592,
+                314.7135783874046
+            ],
+            "popup": {
+                "title": "Ammo Box",
+                "description": "Often contains valuable ammo, on all tiers of raids (relative to that raid).",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "68"
+        },
+        {
+            "categoryId": "12",
+            "position": [
+                970.4908447265627,
+                276.7094726562501
+            ],
+            "popup": {
+                "title": "Ammo Box",
+                "description": "Often contains valuable ammo, on all tiers of raids (relative to that raid).",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "69"
+        },
+        {
+            "categoryId": "12",
+            "position": [
+                1055.9908447265625,
+                716.20947265625
+            ],
+            "popup": {
+                "title": "Ammo Box",
+                "description": "Often contains valuable ammo, on all tiers of raids (relative to that raid).",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "70"
+        },
+        {
+            "categoryId": "12",
+            "position": [
+                1482.572509765625,
+                799.0026245117188
+            ],
+            "popup": {
+                "title": "Ammo Box",
+                "description": "Often contains valuable ammo, on all tiers of raids (relative to that raid).",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "71"
+        },
+        {
+            "categoryId": "11",
+            "position": [
+                912.5000000000001,
+                1067.9999999999998
+            ],
+            "popup": {
+                "title": "Toolbox",
+                "description": "Usually contains useless screws and nuts, but can rarely contain more valuable electronic tools.",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "72"
+        },
+        {
+            "categoryId": "11",
+            "position": [
+                958.9999999999999,
+                328.9999999999999
+            ],
+            "popup": {
+                "title": "Toolbox",
+                "description": "Usually contains useless screws and nuts, but can rarely contain more valuable electronic tools.",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "73"
+        },
+        {
+            "categoryId": "11",
+            "position": [
+                949.5,
+                277.9999999999998
+            ],
+            "popup": {
+                "title": "Toolbox",
+                "description": "Usually contains useless screws and nuts, but can rarely contain more valuable electronic tools.",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "74"
+        },
+        {
+            "categoryId": "11",
+            "position": [
+                1243.9999999999998,
+                538.4999999999999
+            ],
+            "popup": {
+                "title": "Toolbox",
+                "description": "Usually contains useless screws and nuts, but can rarely contain more valuable electronic tools.",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "75"
+        },
+        {
+            "categoryId": "11",
+            "position": [
+                1308.0,
+                531.9999999999999
+            ],
+            "popup": {
+                "title": "Toolbox",
+                "description": "Usually contains useless screws and nuts, but can rarely contain more valuable electronic tools.",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "76"
+        },
+        {
+            "categoryId": "11",
+            "position": [
+                1630.5000000000002,
+                455.4999999999999
+            ],
+            "popup": {
+                "title": "Toolbox",
+                "description": "Usually contains useless screws and nuts, but can rarely contain more valuable electronic tools.",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "77"
+        },
+        {
+            "categoryId": "11",
+            "position": [
+                1620.5,
+                383.4999999999999
+            ],
+            "popup": {
+                "title": "Toolbox",
+                "description": "Usually contains useless screws and nuts, but can rarely contain more valuable electronic tools.",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "78"
+        },
+        {
+            "categoryId": "11",
+            "position": [
+                1638.0,
+                414.4999999999999
+            ],
+            "popup": {
+                "title": "Toolbox",
+                "description": "Usually contains useless screws and nuts, but can rarely contain more valuable electronic tools.",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "79"
+        },
+        {
+            "categoryId": "11",
+            "position": [
+                885.5000000000002,
+                678.4999999999998
+            ],
+            "popup": {
+                "title": "Toolbox",
+                "description": "Usually contains useless screws and nuts, but can rarely contain more valuable electronic tools.",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "80"
+        },
+        {
+            "categoryId": "11",
+            "position": [
+                458.00000000000006,
+                407.9999999999999
+            ],
+            "popup": {
+                "title": "Toolbox",
+                "description": "Usually contains useless screws and nuts, but can rarely contain more valuable electronic tools.",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "81"
+        },
+        {
+            "categoryId": "11",
+            "position": [
+                508.0,
+                865.4999999999998
+            ],
+            "popup": {
+                "title": "Toolbox",
+                "description": "Usually contains useless screws and nuts, but can rarely contain more valuable electronic tools.",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "82"
+        },
+        {
+            "categoryId": "11",
+            "position": [
+                871.0,
+                1017.9999999999998
+            ],
+            "popup": {
+                "title": "Toolbox",
+                "description": "Usually contains useless screws and nuts, but can rarely contain more valuable electronic tools.",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "83"
+        },
+        {
+            "categoryId": "11",
+            "position": [
+                1018.4999999999999,
+                1039.9999999999998
+            ],
+            "popup": {
+                "title": "Toolbox",
+                "description": "Usually contains useless screws and nuts, but can rarely contain more valuable electronic tools.",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "84"
+        },
+        {
+            "categoryId": "11",
+            "position": [
+                1350.9999999999998,
+                575.4999999999998
+            ],
+            "popup": {
+                "title": "Toolbox",
+                "description": "Usually contains useless screws and nuts, but can rarely contain more valuable electronic tools.",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "85"
+        },
+        {
+            "categoryId": "11",
+            "position": [
+                1258.0,
+                572.9999999999999
+            ],
+            "popup": {
+                "title": "Toolbox",
+                "description": "Usually contains useless screws and nuts, but can rarely contain more valuable electronic tools.",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "86"
+        },
+        {
+            "categoryId": "11",
+            "position": [
+                1264.5,
+                546.4999999999998
+            ],
+            "popup": {
+                "title": "Toolbox",
+                "description": "Usually contains useless screws and nuts, but can rarely contain more valuable electronic tools.",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "87"
+        },
+        {
+            "categoryId": "11",
+            "position": [
+                1318.5000000000002,
+                384.4999999999999
+            ],
+            "popup": {
+                "title": "Toolbox",
+                "description": "Usually contains useless screws and nuts, but can rarely contain more valuable electronic tools.",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "88"
+        },
+        {
+            "categoryId": "11",
+            "position": [
+                63.49999999999999,
+                549.4999999999999
+            ],
+            "popup": {
+                "title": "Toolbox",
+                "description": "Usually contains useless screws and nuts, but can rarely contain more valuable electronic tools.",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "89"
+        },
+        {
+            "categoryId": "11",
+            "position": [
+                551.5,
+                197.0
+            ],
+            "popup": {
+                "title": "Toolbox",
+                "description": "Usually contains useless screws and nuts, but can rarely contain more valuable electronic tools.",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "90"
+        },
+        {
+            "categoryId": "13",
+            "position": [
+                1004.0,
+                275.0000000000001
+            ],
+            "popup": {
+                "title": "Grenade Boxe",
+                "description": "Grenade Boxe",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "91"
+        },
+        {
+            "categoryId": "13",
+            "position": [
+                940.5000000000001,
+                346.0
+            ],
+            "popup": {
+                "title": "Grenade Boxe",
+                "description": "Grenade Boxe",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "92"
+        },
+        {
+            "categoryId": "13",
+            "position": [
+                878.5000000000002,
+                339.5
+            ],
+            "popup": {
+                "title": "Grenade Boxe",
+                "description": "Grenade Boxe",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "93"
+        },
+        {
+            "categoryId": "13",
+            "position": [
+                874.0000000000001,
+                275.0000000000001
+            ],
+            "popup": {
+                "title": "Grenade Boxe",
+                "description": "Grenade Boxe",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "94"
+        },
+        {
+            "categoryId": "13",
+            "position": [
+                982.5000000000001,
+                344.4999999999999
+            ],
+            "popup": {
+                "title": "Grenade Boxe",
+                "description": "Grenade Boxe",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "95"
+        },
+        {
+            "categoryId": "13",
+            "position": [
+                1192.5000000000002,
+                231.0000000000001
+            ],
+            "popup": {
+                "title": "Grenade Boxe",
+                "description": "Grenade Boxe",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "96"
+        },
+        {
+            "categoryId": "13",
+            "position": [
+                283.5,
+                566.0
+            ],
+            "popup": {
+                "title": "Grenade Boxe",
+                "description": "Grenade Boxe",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "97"
+        },
+        {
+            "categoryId": "13",
+            "position": [
+                484.50000000000006,
+                866.5
+            ],
+            "popup": {
+                "title": "Grenade Boxe",
+                "description": "Grenade Boxe",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "98"
+        },
+        {
+            "categoryId": "13",
+            "position": [
+                508.0,
+                877.5
+            ],
+            "popup": {
+                "title": "Grenade Boxe",
+                "description": "Grenade Boxe",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "99"
+        },
+        {
+            "categoryId": "13",
+            "position": [
+                527.5,
+                853.0
+            ],
+            "popup": {
+                "title": "Grenade Boxe",
+                "description": "Grenade Boxe",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "100"
+        },
+        {
+            "categoryId": "19",
+            "position": [
+                766.9999999999999,
+                909.5
+            ],
+            "popup": {
+                "title": "Cash Register",
+                "description": "Cash Registers usually have at least some money.",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "101"
+        },
+        {
+            "categoryId": "19",
+            "position": [
+                413.49528196192796,
+                413.4995825274573
+            ],
+            "popup": {
+                "title": "Cash Register",
+                "description": "Cash Registers usually have at least some money.",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "102"
+        }
+    ]
+}
