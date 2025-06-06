@@ -75,10 +75,12 @@ app.get('*', (req, res) => {
     res.sendFile(path.join(__dirname, '../public/index.html'));
 });
 
-// 🔹 INICIA O SERVIDOR
-// app.listen(PORT, () => {
-//     console.log(`Servidor rodando em http://localhost:${PORT}`);
-// });
+// 🔹 INICIA O SERVIDOR QUANDO EXECUTADO DIRETAMENTE
+if (require.main === module) {
+    app.listen(PORT, () => {
+        console.log(`Servidor rodando em http://localhost:${PORT}`);
+    });
+}
 
 // 🔹 EXPORTAÇÃO PARA O VERCEL ENTENDER
 module.exports = app;
