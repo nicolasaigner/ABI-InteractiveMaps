@@ -71,7 +71,7 @@ npm start
 
 5. Abra o navegador e acesse:
 ```
-http://localhost:3000
+http://localhost:4000
 ```
 
 ### Caso queira contribuir
