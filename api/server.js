@@ -34,7 +34,7 @@ app.get('/api/coordinates/:mapName', (req, res) => {
     const mapName = req.params.mapName;
     const lang = req.query.lang || 'en';
     const filePath = path.join(__dirname, `../public/coordinates/${mapName}.json`);
-    const translationPath = path.join(__dirname, `../public/locales/${lang}.json`);
+    const translationPath = path.join(__dirname, `./locales/${lang}.json`);
 
     if (!fs.existsSync(filePath)) {
         return res.status(404).json({ error: "Mapa não encontrado" });
