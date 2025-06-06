@@ -101,4 +101,4 @@ Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICEN
 ## Avisos
 - Os mapas podem estar desatualizados com algumas informações, se encontrar algum erro, entre em contato abrindo uma PR ou Issue para corrigir;
 - Certifique-se de respeitar as licenças dos dados e mapas utilizados;
-- Mapas interativos do Arena Breakout Infinite foram baseado nos mapas interativos do [Fandom](https://arena-breakout-infinite.fandom.com/wiki/Main);
+- Mapas interativos do Arena Breakout Infinite foram baseados nos mapas interativos do [Fandom](https://arena-breakout-infinite.fandom.com/wiki/Main);
