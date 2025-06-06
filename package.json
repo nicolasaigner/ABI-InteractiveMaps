@@ -4,7 +4,8 @@
   "main": "main.js",
   "scripts": {
     "start": "node api/server.js",
-    "dev": "node api/server.js"
+    "dev": "node api/server.js",
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
@@ -14,5 +15,9 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.1.1"
   }
 }
