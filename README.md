@@ -64,14 +64,19 @@ cd ABI-InteractiveMaps
 npm install
 ```
 
-4. Execute o projeto:
+4. Execute o projeto (a aplicação usa a porta `4000` por padrão):
 ```bash
 npm start
 ```
 
+Caso queira utilizar a porta `3000`, defina a variável de ambiente `PORT`:
+```bash
+PORT=3000 npm start
+```
+
 5. Abra o navegador e acesse:
 ```
-http://localhost:3000
+http://localhost:4000
 ```
 
 ### Caso queira contribuir
